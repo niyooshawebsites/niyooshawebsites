@@ -1,25 +1,48 @@
 import React from "react";
-import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 const WhyUs = () => {
   return (
-    <section className="container mx-auto my-10">
+    <section className="container mx-auto my-28">
       <article className="flex mb-5">
         <div className="w-6/12">
-          <h1 className="text-3xl mb-2">Strategic SEO Expertise</h1>
-          <p>
-            Our SEO specialists are committed to staying ahead of the curve,
-            implementing the latest techniques to enhance your website’s
-            visibility and ranking on search engines.
+          <h1 className="text-3xl text-gray-100">
+            Best <span className="text-blue-500">Web Design Company</span> In
+            Delhi
+          </h1>
+          <p className="mt-5 text-gray-100">
+            Welcome to Niyoosha Websites, where innovation meets optimization!
+            As a premier website and SEO company, we are dedicated to
+            transforming your digital presence and driving unparalleled success
+            for your business. In the ever-evolving landscape of the online
+            world, we understand the critical importance of a strong,
+            user-friendly website coupled with a robust SEO strategy to ensure
+            your brand stands out amidst the competition.
           </p>
+
+          <p className="mt-5 text-gray-100">
+            At Niyoosha Websites, we pride ourselves on being at the forefront
+            of technological advancements, leveraging cutting-edge tools and
+            methodologies to craft websites that not only captivate audiences
+            but also convert visitors into loyal customers. Our team of skilled
+            developers, designers, and SEO experts collaborate seamlessly to
+            deliver solutions tailored to meet your unique business goals.
+          </p>
+
+          <Button
+            className="mt-10 bg-blue-500 text-white cursor-pointer"
+            variant="secondary"
+          >
+            More Info
+          </Button>
         </div>
-        <div className="w-6/12">
-          <Image src={"/common.jpg"} alt="why us" width={500} height={300} />
-        </div>
+        <div className="w-6/12 h-[500px] bg-[url('/img/common.jpg')] bg-cover rounded-2xl"></div>
       </article>
-      <article className="grid grid-cols-2 gap-6">
-        <div className="bg-gray-100 hover:bg-gray-200 p-5 rounded">
-          <h1 className="text-2xl mb-2">Customized Web Solutions</h1>
+      <article className="grid md:grid-cols-4 gap-6">
+        <div className="bg-gray-950 border border-blue-500 text-gray-100 p-5 rounded-xl">
+          <h1 className="text-2xl mb-2 text-blue-500">
+            Customized Web Solutions
+          </h1>
           <p>
             Every business is unique, and so are our web solutions. We design
             and develop websites that align with your brand identity, ensuring a
@@ -27,8 +50,8 @@ const WhyUs = () => {
           </p>
         </div>
 
-        <div className="bg-gray-100 hover:bg-gray-200 p-5 rounded">
-          <h1 className="text-2xl mb-2">Data-Driven Approach</h1>
+        <div className="bg-gray-950 border border-blue-500 text-gray-100 p-5 rounded-xl">
+          <h1 className="text-2xl mb-2 text-blue-500">Data-Driven Approach</h1>
           <p>
             In the world of digital marketing, data is king. We analyze and
             interpret data to refine our strategies, ensuring your online
@@ -36,8 +59,10 @@ const WhyUs = () => {
           </p>
         </div>
 
-        <div className="bg-gray-100 hover:bg-gray-200 p-5 rounded">
-          <h1 className="text-2xl mb-2">Transparent Communication</h1>
+        <div className="bg-gray-950 border border-blue-500 text-gray-100 p-5 rounded-xl">
+          <h1 className="text-2xl mb-2 text-blue-500">
+            Transparent Communication
+          </h1>
           <p>
             We believe in transparency and open communication. Throughout the
             development and optimization process, you’ll be kept in the loop
@@ -46,8 +71,10 @@ const WhyUs = () => {
           </p>
         </div>
 
-        <div className="bg-gray-100 hover:bg-gray-200 p-5 rounded">
-          <h1 className="text-2xl mb-2">Results-Oriented Focus</h1>
+        <div className="bg-gray-950 border border-blue-500 text-gray-100 p-5 rounded-xl">
+          <h1 className="text-2xl mb-2 text-blue-500">
+            Results-Oriented Focus
+          </h1>
           <p>
             Our ultimate goal is to drive measurable results for your business.
             Whether it’s increased website traffic, higher conversion rates, or
