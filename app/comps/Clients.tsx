@@ -154,7 +154,7 @@ export const clients = [
 
 export function ClientsSlider() {
   return (
-    <section>
+    <section className="text-gray-100">
       <article>
         <h1 className="text-3xl">Our Clients</h1>
         <Carousel

@@ -16,11 +16,13 @@ const TestimonialCard = ({
   quote,
 }: TestimoinalsInterface) => {
   return (
-    <Card className="h-full transition-all hover:-translate-y-1 hover:shadow-lg">
+    <Card className="h-full transition-all hover:-translate-y-1 hover:shadow-lg bg-gray-950">
       <CardHeader className="flex flex-row items-center gap-4">
         <Avatar>
           <AvatarImage src={image} />
-          <AvatarFallback>{name.slice(0, 2).toUpperCase()}</AvatarFallback>
+          <AvatarFallback className="border p-1">
+            {name.slice(0, 2).toUpperCase()}
+          </AvatarFallback>
         </Avatar>
 
         <div>

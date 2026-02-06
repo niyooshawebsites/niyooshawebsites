@@ -25,9 +25,9 @@ const knowUsItems = [
 
 const KnowUs = () => {
   return (
-    <section className="flex flex-col gap-y-3">
-      <article>
-        <h1 className="text-3xl">
+    <section className="flex flex-col gap-y-10">
+      <article className=" text-gray-100">
+        <h1 className="text-3xl mb-5">
           Know Us, <span className="text-blue-500">To Move With Us</span>
         </h1>
         <p>

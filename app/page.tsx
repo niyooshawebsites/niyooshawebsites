@@ -8,7 +8,7 @@ import Testimonials from "./comps/Testimonials";
 
 export default function Home() {
   return (
-    <main className="container mx-auto ">
+    <main className="container mx-auto p-2 grid grid-cols-1 gap-y-10">
       <Hero />
       <WhyUs />
       <USP />

@@ -1,11 +1,10 @@
-import React from "react";
 import { Button } from "@/components/ui/button";
 
 const WhyUs = () => {
   return (
-    <section className="container mx-auto my-28">
-      <article className="flex mb-5">
-        <div className="w-6/12">
+    <section className="container mx-auto">
+      <article className="flex flex-col md:flex-row mb-5 gap-y-5">
+        <div className="w-full md:w-6/12">
           <h1 className="text-3xl text-gray-100">
             Best <span className="text-blue-500">Web Design Company</span> In
             Delhi
@@ -36,7 +35,7 @@ const WhyUs = () => {
             More Info
           </Button>
         </div>
-        <div className="w-6/12 h-[500px] bg-[url('/img/common.jpg')] bg-cover rounded-2xl"></div>
+        <div className="w-full md:w-6/12 h-[500px] bg-[url('/img/common.jpg')] bg-cover rounded-2xl"></div>
       </article>
       <article className="grid md:grid-cols-4 gap-6">
         <div className="bg-gray-950 border border-blue-500 text-gray-100 p-5 rounded-xl">
