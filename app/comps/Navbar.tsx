@@ -9,6 +9,7 @@ import {
   NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
 import Link from "next/link";
+
 const webDevComps = [
   { title: "React Development", href: "/react-development" },
   { title: "Tailwind CSS Development", href: "/tailwind-development" },
@@ -47,12 +48,12 @@ const DropdownList = ({
 }: {
   items: { title: string; href: string }[];
 }) => (
-  <ul className="grid gap-2 p-4 w-[320px]">
+  <ul className="grid gap-2 p-2 w-[320px]">
     {items.map((item) => (
       <li key={item.href}>
         <NavigationMenuLink
           asChild
-          className="border border-gray-200 hover:bg-gray-300"
+          className="border border-blue-500 hover:bg-gray-950"
         >
           <Link
             href={item.href}
@@ -78,28 +79,28 @@ const Navbar = () => {
 
         <NavigationMenuItem>
           <NavigationMenuTrigger>Web Development</NavigationMenuTrigger>
-          <NavigationMenuContent className="bg-gray-50">
+          <NavigationMenuContent className="bg-gray-900">
             <DropdownList items={webDevComps} />
           </NavigationMenuContent>
         </NavigationMenuItem>
 
         <NavigationMenuItem>
           <NavigationMenuTrigger>Mobile Development</NavigationMenuTrigger>
-          <NavigationMenuContent className="bg-gray-50">
+          <NavigationMenuContent className="bg-gray-900">
             <DropdownList items={mobileDevComps} />
           </NavigationMenuContent>
         </NavigationMenuItem>
 
         <NavigationMenuItem>
           <NavigationMenuTrigger>Graphic Designing</NavigationMenuTrigger>
-          <NavigationMenuContent className="bg-gray-50">
+          <NavigationMenuContent className="bg-gray-900">
             <DropdownList items={graphicsComps} />
           </NavigationMenuContent>
         </NavigationMenuItem>
 
         <NavigationMenuItem>
           <NavigationMenuTrigger>Branding & Marketing</NavigationMenuTrigger>
-          <NavigationMenuContent className="bg-gray-50">
+          <NavigationMenuContent className="bg-gray-900">
             <DropdownList items={brandingMarketingComps} />
           </NavigationMenuContent>
         </NavigationMenuItem>
