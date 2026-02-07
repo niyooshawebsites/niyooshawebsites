@@ -11,11 +11,11 @@ import {
 import Link from "next/link";
 
 const webDevComps = [
-  { title: "React Development", href: "/react-development" },
-  { title: "Tailwind CSS Development", href: "/tailwind-development" },
-  { title: "Bootstrap Development", href: "/bootstrap-development" },
-  { title: "Node Js Development", href: "/node-js-development" },
-  { title: "MERN Stack Development", href: "/mern-stack-development" },
+  { title: "React Development", href: "/services/react" },
+  { title: "Tailwind CSS Development", href: "/services/tailwind" },
+  { title: "Bootstrap Development", href: "/services/bootstrap" },
+  { title: "Node Js Development", href: "/services/nodejs" },
+  { title: "MERN Stack Development", href: "/services/mern-stack-development" },
   { title: "NEXT Js Development", href: "/next-js-development" },
   { title: "Django Development", href: "/django-development" },
   { title: "Laravel Development", href: "/laravel-development" },
