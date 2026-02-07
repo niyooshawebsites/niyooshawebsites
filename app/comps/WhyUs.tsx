@@ -28,10 +28,7 @@ const WhyUs = () => {
             deliver solutions tailored to meet your unique business goals.
           </p>
 
-          <Button
-            className="mt-10 bg-blue-500 text-white cursor-pointer"
-            variant="secondary"
-          >
+          <Button className="mt-10 border border-blue-500 text-blue-500 shadow-lg shadow-blue-500/50 cursor-pointer hover:translate-y-0.5">
             More Info
           </Button>
         </div>

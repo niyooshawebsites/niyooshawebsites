@@ -31,7 +31,11 @@ const CardComp = ({ title, desc, link, showLink }: CardBriefings) => {
       <CardFooter>
         {showLink ? (
           <CardAction>
-            <Button asChild variant={"outline"} className="text-blue-500">
+            <Button
+              asChild
+              variant={"outline"}
+              className="text-blue-500 shadow-lg shadow-blue-500/50 cursor-pointer hover:translate-y-0.5"
+            >
               <Link href={link}>More Info</Link>
             </Button>
           </CardAction>
