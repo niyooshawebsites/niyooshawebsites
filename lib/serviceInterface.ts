@@ -3,12 +3,17 @@ type Benefit = {
   desc: string;
 };
 
+type Feature = {
+  title: string;
+  desc: string;
+};
+
 interface ServiceInterface {
   title: string;
   subtitle: string;
   description: string;
   icon: string;
-  features: string[];
+  features: Feature[];
   benefits: Benefit[];
 }
 

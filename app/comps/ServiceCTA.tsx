@@ -8,7 +8,7 @@ const ServiceCTA = () => {
         <p className="mb-8 text-lg">
           Let’s turn your idea into a powerful digital product.
         </p>
-        <button className="bg-white text-primary px-8 py-3 rounded-lg font-semibold hover:scale-105 transition">
+        <button className="bg-blue-500 text-primary px-8 py-3 rounded-lg font-semibold hover:scale-105 transition hover:cursor-pointer">
           Get Free Consultation
         </button>
       </div>

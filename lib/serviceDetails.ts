@@ -7,11 +7,30 @@ export const services = {
       "At NIYOOSHA WEBSITES, we build fast, scalable, and interactive React applications using modern best practices and clean architecture.",
     icon: "react",
     features: [
-      "SPA Development",
-      "Custom React Solutions",
-      "Component Development",
-      "React Migration",
-      "State Management (Redux / Context)",
+      {
+        title: "SPA Development",
+        desc: "we build fast, scalable, and interactive React applications.",
+      },
+      {
+        title: "Custom React Solutions",
+        desc: "we build fast, scalable, and interactive React applications.",
+      },
+      {
+        title: "Component Development",
+        desc: "we build fast, scalable, and interactive React applications.",
+      },
+      {
+        title: "React Migration",
+        desc: "we build fast, scalable, and interactive React applications.",
+      },
+      {
+        title: "State Management (Redux / Context)",
+        desc: "we build fast, scalable, and interactive React applications.",
+      },
+      {
+        title: "State Management (Redux)",
+        desc: "we build fast, scalable, and interactive React applications.",
+      },
     ],
     benefits: [
       {
@@ -27,6 +46,7 @@ export const services = {
         desc: "Massive ecosystem, frequent updates, and long-term stability.",
       },
     ],
+    link: "/service-details/react",
   },
 
   tailwind: {
@@ -56,6 +76,7 @@ export const services = {
         desc: "Optimized CSS output improves page load performance.",
       },
     ],
+    link: "/service-details/tailwind",
   },
 
   bootstrap: {
@@ -84,6 +105,7 @@ export const services = {
         desc: "Consistent behavior across modern browsers.",
       },
     ],
+    link: "/service-details/bootstrap",
   },
 
   node: {
@@ -112,6 +134,7 @@ export const services = {
         desc: "Same language on frontend and backend improves productivity.",
       },
     ],
+    link: "/service-details/nodejs",
   },
 
   mern: {
@@ -140,6 +163,7 @@ export const services = {
         desc: "Clean, modular, and maintainable codebase.",
       },
     ],
+    link: "/service-details/mern-stack",
   },
 
   nextjs: {
@@ -168,6 +192,7 @@ export const services = {
         desc: "Built-in optimizations and scalability.",
       },
     ],
+    link: "/service-details/nextjs",
   },
 
   django: {
@@ -196,6 +221,7 @@ export const services = {
         desc: "Handles growth efficiently and reliably.",
       },
     ],
+    link: "/service-details/django",
   },
 
   laravel: {
@@ -224,6 +250,7 @@ export const services = {
         desc: "Rich libraries and active community support.",
       },
     ],
+    link: "/service-details/laravel",
   },
 
   wordpress: {
@@ -252,6 +279,7 @@ export const services = {
         desc: "Optimized structure for search engines.",
       },
     ],
+    link: "/service-details/woocommerce",
   },
 
   shopify: {
@@ -280,5 +308,6 @@ export const services = {
         desc: "Grows easily with your business.",
       },
     ],
+    link: "/service-details/shopify",
   },
 };

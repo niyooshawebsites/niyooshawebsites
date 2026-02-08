@@ -11,16 +11,31 @@ import {
 import Link from "next/link";
 
 const webDevComps = [
-  { title: "React Development", href: "/services/react" },
-  { title: "Tailwind CSS Development", href: "/services/tailwind" },
-  { title: "Bootstrap Development", href: "/services/bootstrap" },
-  { title: "Node Js Development", href: "/services/nodejs" },
-  { title: "MERN Stack Development", href: "/services/mern-stack-development" },
-  { title: "NEXT Js Development", href: "/next-js-development" },
-  { title: "Django Development", href: "/django-development" },
-  { title: "Laravel Development", href: "/laravel-development" },
-  { title: "Wordpress Development", href: "/wordpress-development" },
-  { title: "Shopify Development", href: "/shopify-development" },
+  { title: "React Development", href: "/service-details/react" },
+  { title: "Tailwind CSS Development", href: "/service-details/tailwind" },
+  { title: "Bootstrap Development", href: "/service-details/bootstrap" },
+  { title: "Node Js Development", href: "/service-details/nodejs" },
+  {
+    title: "MERN Stack Development",
+    href: "/service-details/mern-stack",
+  },
+  {
+    title: "NEXT Js Development",
+    href: "/service-details/nextjs",
+  },
+  { title: "Django Development", href: "/service-details/django" },
+  {
+    title: "Laravel Development",
+    href: "/service-details/laravel",
+  },
+  {
+    title: "Wordpress Development",
+    href: "/service-details/wordpress",
+  },
+  {
+    title: "Shopify Development",
+    href: "/service-details/shopify",
+  },
 ];
 
 const mobileDevComps = [
