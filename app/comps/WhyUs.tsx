@@ -2,11 +2,11 @@ import { Button } from "@/components/ui/button";
 
 const WhyUs = () => {
   return (
-    <section className="container mx-auto">
+    <section className="container mx-auto my-10">
       <article className="flex flex-col md:flex-row mb-5 gap-y-5">
         <div className="w-full md:w-6/12">
           <h1 className="text-3xl text-gray-100">
-            Best <span className="text-blue-500">Web Design Company</span> In
+            Best <span className="text-orange-500">Web Design Company</span> In
             Delhi
           </h1>
           <p className="mt-5 text-gray-100">
@@ -28,15 +28,15 @@ const WhyUs = () => {
             deliver solutions tailored to meet your unique business goals.
           </p>
 
-          <Button className="mt-10 border border-blue-500 text-blue-500 shadow-lg shadow-blue-500/50 cursor-pointer hover:translate-y-0.5">
+          <Button className="mt-10 border border-orange-500 text-orange-500 shadow-lg shadow-orange-500/50 cursor-pointer hover:translate-y-0.5">
             More Info
           </Button>
         </div>
         <div className="w-full md:w-6/12 h-[500px] bg-[url('/img/common.jpg')] bg-cover rounded-2xl"></div>
       </article>
       <article className="grid md:grid-cols-4 gap-6">
-        <div className="bg-gray-950 border border-blue-500 text-gray-100 p-5 rounded-xl">
-          <h1 className="text-2xl mb-2 text-blue-500">
+        <div className="bg-gray-950 border border-orange-500 text-gray-100 p-5 rounded-xl">
+          <h1 className="text-2xl mb-2 text-orange-500">
             Customized Web Solutions
           </h1>
           <p>
@@ -46,8 +46,10 @@ const WhyUs = () => {
           </p>
         </div>
 
-        <div className="bg-gray-950 border border-blue-500 text-gray-100 p-5 rounded-xl">
-          <h1 className="text-2xl mb-2 text-blue-500">Data-Driven Approach</h1>
+        <div className="bg-gray-950 border border-orange-500 text-gray-100 p-5 rounded-xl">
+          <h1 className="text-2xl mb-2 text-orange-500">
+            Data-Driven Approach
+          </h1>
           <p>
             In the world of digital marketing, data is king. We analyze and
             interpret data to refine our strategies, ensuring your online
@@ -55,8 +57,8 @@ const WhyUs = () => {
           </p>
         </div>
 
-        <div className="bg-gray-950 border border-blue-500 text-gray-100 p-5 rounded-xl">
-          <h1 className="text-2xl mb-2 text-blue-500">
+        <div className="bg-gray-950 border border-orange-500 text-gray-100 p-5 rounded-xl">
+          <h1 className="text-2xl mb-2 text-orange-500">
             Transparent Communication
           </h1>
           <p>
@@ -67,8 +69,8 @@ const WhyUs = () => {
           </p>
         </div>
 
-        <div className="bg-gray-950 border border-blue-500 text-gray-100 p-5 rounded-xl">
-          <h1 className="text-2xl mb-2 text-blue-500">
+        <div className="bg-gray-950 border border-orange-500 text-gray-100 p-5 rounded-xl">
+          <h1 className="text-2xl mb-2 text-orange-500">
             Results-Oriented Focus
           </h1>
           <p>

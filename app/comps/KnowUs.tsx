@@ -25,10 +25,10 @@ const knowUsItems = [
 
 const KnowUs = () => {
   return (
-    <section className="flex flex-col gap-y-10">
+    <section className="flex flex-col gap-y-10 my-10">
       <article className=" text-gray-100">
         <h1 className="text-3xl mb-5">
-          Know Us, <span className="text-blue-500">To Move With Us</span>
+          Know Us, <span className="text-orange-500">To Move With Us</span>
         </h1>
         <p>
           Niyoosha Websites is focused on delivering professional and the best

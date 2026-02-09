@@ -20,10 +20,10 @@ interface CardBriefings {
 
 const CardComp = ({ title, desc, link, showLink }: CardBriefings) => {
   return (
-    <Card className="border border-blue-500 bg-gray-950">
+    <Card className="border border-orange-500 bg-gray-950">
       <CardHeader className="flex items-center">
         <LuPackageCheck className="text-3xl text-gray-100" />
-        <CardTitle className="text-gray-100">{title}</CardTitle>
+        <CardTitle className="text-orange-500 text-xl">{title}</CardTitle>
       </CardHeader>
       <CardContent>
         <CardDescription className="text-gray-100">{desc}</CardDescription>
@@ -34,7 +34,7 @@ const CardComp = ({ title, desc, link, showLink }: CardBriefings) => {
             <Button
               asChild
               variant={"outline"}
-              className="text-blue-500 shadow-lg shadow-blue-500/50 cursor-pointer hover:translate-y-0.5"
+              className="text-orange-500 shadow-lg shadow-orange-500/50 cursor-pointer hover:translate-y-0.5"
             >
               <Link href={link}>More Info</Link>
             </Button>

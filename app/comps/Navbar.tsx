@@ -33,6 +33,10 @@ const webDevComps = [
     href: "/service-details/wordpress",
   },
   {
+    title: "Woocommerce Development",
+    href: "/service-details/woocommerce",
+  },
+  {
     title: "Shopify Development",
     href: "/service-details/shopify",
   },
@@ -86,47 +90,47 @@ const Navbar = () => {
   return (
     <NavigationMenu className="container mx-auto py-2 text-gray-100">
       <NavigationMenuList className=" flex gap-6">
-        <NavigationMenuItem className="relative">
+        <NavigationMenuItem className="relative hover:bg-blue-500 hover:cursor-pointer rounded-md">
           <NavigationMenuLink asChild>
             <Link href="/">Home</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
 
-        <NavigationMenuItem>
+        <NavigationMenuItem className=" hover:bg-blue-500 hover:cursor-pointer rounded-md">
           <NavigationMenuTrigger>Web Development</NavigationMenuTrigger>
           <NavigationMenuContent className="bg-gray-900">
             <DropdownList items={webDevComps} />
           </NavigationMenuContent>
         </NavigationMenuItem>
 
-        <NavigationMenuItem>
+        <NavigationMenuItem className=" hover:bg-blue-500 hover:cursor-pointer rounded-md">
           <NavigationMenuTrigger>Mobile Development</NavigationMenuTrigger>
           <NavigationMenuContent className="bg-gray-900">
             <DropdownList items={mobileDevComps} />
           </NavigationMenuContent>
         </NavigationMenuItem>
 
-        <NavigationMenuItem>
+        <NavigationMenuItem className=" hover:bg-blue-500 hover:cursor-pointer rounded-md">
           <NavigationMenuTrigger>Graphic Designing</NavigationMenuTrigger>
           <NavigationMenuContent className="bg-gray-900">
             <DropdownList items={graphicsComps} />
           </NavigationMenuContent>
         </NavigationMenuItem>
 
-        <NavigationMenuItem>
+        <NavigationMenuItem className=" hover:bg-blue-500 hover:cursor-pointer rounded-md">
           <NavigationMenuTrigger>Branding & Marketing</NavigationMenuTrigger>
           <NavigationMenuContent className="bg-gray-900">
             <DropdownList items={brandingMarketingComps} />
           </NavigationMenuContent>
         </NavigationMenuItem>
 
-        <NavigationMenuItem>
+        <NavigationMenuItem className=" hover:bg-blue-500 hover:cursor-pointer rounded-md">
           <NavigationMenuLink asChild>
             <Link href="/about">About</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
 
-        <NavigationMenuItem>
+        <NavigationMenuItem className=" hover:bg-blue-500 hover:cursor-pointer rounded-md">
           <NavigationMenuLink asChild>
             <Link href="/contact">Contact</Link>
           </NavigationMenuLink>

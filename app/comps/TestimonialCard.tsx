@@ -20,18 +20,18 @@ const TestimonialCard = ({
       <CardHeader className="flex flex-row items-center gap-4">
         <Avatar>
           <AvatarImage src={image} />
-          <AvatarFallback className="border p-1">
+          <AvatarFallback className="border p-1 text-orange-500">
             {name.slice(0, 2).toUpperCase()}
           </AvatarFallback>
         </Avatar>
 
         <div>
-          <p className="font-semibold">{name}</p>
-          <p className="text-sm text-muted-foreground">{role}</p>
+          <p className="font-semibold text-orange-500">{name}</p>
+          <p className="text-sm text-muted-foreground text-gray-100">{role}</p>
         </div>
       </CardHeader>
       <CardContent>
-        <p>{quote}</p>
+        <p className="text-gray-100">{quote}</p>
       </CardContent>
     </Card>
   );

@@ -15,6 +15,8 @@ interface ServiceInterface {
   icon: string;
   features: Feature[];
   benefits: Benefit[];
+  link: string;
+  imageLink: string;
 }
 
 export default ServiceInterface;

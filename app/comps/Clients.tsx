@@ -11,9 +11,9 @@ import clients from "@/lib/clients";
 
 export function ClientsSlider() {
   return (
-    <section className="text-gray-100">
+    <section className="text-orange-500 my-10">
       <article>
-        <h1 className="text-3xl">Our Clients</h1>
+        <h1 className="text-3xl mb-3">Our Clients</h1>
         <Carousel
           opts={{
             align: "center",

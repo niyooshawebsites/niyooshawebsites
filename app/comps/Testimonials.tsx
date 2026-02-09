@@ -3,9 +3,9 @@ import { testimonials } from "@/lib/testimonials";
 
 const Testimonials = () => {
   return (
-    <section className=" text-gray-100">
+    <section className="my-10">
       <article>
-        <h2 className="text-3xl tracking-tight sm:text-4xl mb-3">
+        <h2 className="text-3xl tracking-tight sm:text-4xl mb-5 text-orange-500">
           Loved by clients worldwide!
         </h2>
 

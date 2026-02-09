@@ -7,7 +7,7 @@ interface ServiceFeaturesProps {
 
 const ServiceFeatures = ({ service }: ServiceFeaturesProps) => {
   return (
-    <section className="py-16 bg-gray-950">
+    <section className="py-16 bg-gray-950 p-2">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-3xl font-bold mb-10 text-center text-gray-100">
           Key Features

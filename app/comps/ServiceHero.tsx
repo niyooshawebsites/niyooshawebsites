@@ -10,6 +10,7 @@ import {
   ItemTitle,
 } from "@/components/ui/item";
 import { ImCheckboxChecked } from "react-icons/im";
+import Image from "next/image";
 
 interface ServiceHeroProps {
   service: ServiceInterface;
@@ -23,11 +24,23 @@ export default function ServiceHero({ service }: ServiceHeroProps) {
         <Separator className="text-gray-100" />
       </article>
 
-      <article className="container mx-auto grid md:grid-cols-2 gap-10">
+      <article className="container mx-auto grid md:grid-cols-2 gap-10 ">
         {/* Left */}
         <div>
-          <p className="text-muted-foreground mb-6">{service.subtitle}</p>
-          <p className="text-gray-600 leading-relaxed">{service.description}</p>
+          <h2 className="text-muted-foreground text-xl mb-6">
+            {service.subtitle}
+          </h2>
+          <p className="leading-relaxed text-gray-500">{service.description}</p>
+
+          <Image
+            src={service.imageLink}
+            alt={service.title}
+            width={1200}
+            height={800}
+            style={{ width: "100%", height: "auto" }}
+            className="my-10 rounded-xl"
+          />
+
           <Button
             size="lg"
             variant="secondary"

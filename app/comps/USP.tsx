@@ -6,34 +6,34 @@ import { IoShareSocialOutline } from "react-icons/io5";
 
 const USP = () => {
   return (
-    <section className="container mx-auto grid grid-cols-2 md:grid-cols-6 text-gray-100 rounded-xl p-2 gap-2">
-      <div className="flex flex-col items-center gap-2 p-5 border border-blue-500 rounded-lg bg-gray-950">
-        <MdMobileFriendly className="text-5xl" />
+    <section className="container mx-auto grid grid-cols-2 md:grid-cols-6 text-gray-100 rounded-xl p-2 gap-2 my-10">
+      <div className="flex flex-col items-center gap-2 p-5 border border-orange-500 rounded-lg bg-gray-950">
+        <MdMobileFriendly className="text-5xl text-orange-500" />
         <span>Mobile Friendly Designs</span>
       </div>
 
-      <div className="flex flex-col items-center gap-2 p-5 border border-blue-500 rounded-lg bg-gray-950">
-        <MdMobileFriendly className="text-5xl" />
+      <div className="flex flex-col items-center gap-2 p-5 border border-orange-500 rounded-lg bg-gray-950">
+        <MdMobileFriendly className="text-5xl text-orange-500" />
         <span>Mobile Friendly Designs</span>
       </div>
 
-      <div className="flex flex-col items-center gap-2 p-5 border border-blue-500 rounded-lg bg-gray-950">
-        <AiTwotoneThunderbolt className="text-5xl" />
+      <div className="flex flex-col items-center gap-2 p-5 border border-orange-500 rounded-lg bg-gray-950">
+        <AiTwotoneThunderbolt className="text-5xl text-orange-500" />
         <span>Light Weight and Fast Loading</span>
       </div>
 
-      <div className="flex flex-col items-center gap-2 p-5 border border-blue-500 rounded-lg bg-gray-950">
-        <IoMdSearch className="text-5xl" />
+      <div className="flex flex-col items-center gap-2 p-5 border border-orange-500 rounded-lg bg-gray-950">
+        <IoMdSearch className="text-5xl text-orange-500" />
         <span>SEO Optimized</span>
       </div>
 
-      <div className="flex flex-col items-center gap-2 p-5 border border-blue-500 rounded-lg bg-gray-950">
-        <FaGears className="text-5xl" />
+      <div className="flex flex-col items-center gap-2 p-5 border border-orange-500 rounded-lg bg-gray-950">
+        <FaGears className="text-5xl text-orange-500" />
         <span>360 Degree Tech Support</span>
       </div>
 
-      <div className="flex flex-col items-center gap-2 p-5 border border-blue-500 rounded-lg bg-gray-950">
-        <IoShareSocialOutline className="text-5xl" />
+      <div className="flex flex-col items-center gap-2 p-5 border border-orange-500 rounded-lg bg-gray-950">
+        <IoShareSocialOutline className="text-5xl text-orange-500" />
         <span>Social Media Integration</span>
       </div>
     </section>

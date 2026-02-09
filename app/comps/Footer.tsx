@@ -27,7 +27,7 @@ const Footer = () => {
     <footer className="flex flex-col mt-10">
       <section className="grid md:grid-cols-4 p-5 gap-4 bg-gray-950">
         <div className="text-gray-100">
-          <h1 className="text-3xl mb-3">About</h1>
+          <h1 className="text-3xl mb-3 text-orange-500">About</h1>
           <p className="mb-3">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
             odit quidem molestiae, sed voluptatem iure vero nesciunt nemo dolore
@@ -37,14 +37,14 @@ const Footer = () => {
           </p>
           <Button
             variant="secondary"
-            className="bg-blue-500 hover:bg-blue-600 rounded-md text-gray-100 cursor-pointer"
+            className="bg-orange-500 hover:bg-orange-600 shadow-lg shadow-orange-500/50 rounded-md text-gray-100 cursor-pointer"
           >
             More Info
           </Button>
         </div>
 
         <div className="text-gray-100">
-          <h1 className="text-3xl mb-3">Quick Links</h1>
+          <h1 className="text-3xl mb-3 text-orange-500">Quick Links</h1>
           {services.map((service, i) => (
             <Collapsible key={i}>
               <CollapsibleTrigger asChild>
@@ -70,13 +70,13 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-y-3 text-gray-100">
-          <h1 className="text-3xl ">Contact us</h1>
+          <h1 className="text-3xl text-orange-500">Contact us</h1>
           <Item variant="outline">
             <ItemMedia variant="icon">
-              <FaMapMarkerAlt />
+              <FaMapMarkerAlt className="text-orange-500" />
             </ItemMedia>
             <ItemContent>
-              <ItemTitle>Address</ItemTitle>
+              <ItemTitle className="text-orange-500">Address</ItemTitle>
               <ItemDescription>
                 H 189, street no 7, Samaypur, Delhi 110042
               </ItemDescription>
@@ -85,37 +85,37 @@ const Footer = () => {
 
           <Item variant="outline">
             <ItemMedia variant="icon">
-              <FaPhoneVolume />
+              <FaPhoneVolume className="text-orange-500" />
             </ItemMedia>
             <ItemContent>
-              <ItemTitle>Phone</ItemTitle>
+              <ItemTitle className="text-orange-500">Phone</ItemTitle>
               <ItemDescription>+91 9205504115</ItemDescription>
             </ItemContent>
           </Item>
 
           <Item variant="outline">
             <ItemMedia variant="icon">
-              <MdAlternateEmail />
+              <MdAlternateEmail className="text-orange-500" />
             </ItemMedia>
             <ItemContent>
-              <ItemTitle>Email</ItemTitle>
+              <ItemTitle className="text-orange-500">Email</ItemTitle>
               <ItemDescription>niyooshawebsites@gmail.com</ItemDescription>
             </ItemContent>
           </Item>
         </div>
 
         <div className="text-gray-100 flex flex-col gap-y-3">
-          <h1 className="text-3xl ">Follow us</h1>
+          <h1 className="text-3xl text-orange-500">Follow us</h1>
           <div className="flex gap-3 ">
-            <AiOutlineYoutube className="border border-gray-100 text-5xl inline-block p-1 rounded-full " />
-            <FaInstagram className="border border-gray-100 text-5xl inline-block p-1 rounded-full " />
-            <FaFacebook className="border border-gray-100 text-5xl inline-block p-1 rounded-full " />
-            <FaWhatsapp className="border border-gray-100 text-5xl inline-block p-1 rounded-full " />
+            <AiOutlineYoutube className="border border-gray-100 text-5xl inline-block p-1 rounded-full hover:cursor-pointer hover:translate-y-0.5" />
+            <FaInstagram className="border border-gray-100 text-5xl inline-block p-1 rounded-full hover:cursor-pointer hover:translate-y-0.5" />
+            <FaFacebook className="border border-gray-100 text-5xl inline-block p-1 rounded-full hover:cursor-pointer hover:translate-y-0.5" />
+            <FaWhatsapp className="border border-gray-100 text-5xl inline-block p-1 rounded-full hover:cursor-pointer hover:translate-y-0.5" />
           </div>
         </div>
       </section>
       <section>
-        <p className="text-center bg-blue-500 text-gray-100">
+        <p className="text-center bg-orange-500 text-gray-100">
           All rights reserved. Copyright &copy; 2026
         </p>
       </section>

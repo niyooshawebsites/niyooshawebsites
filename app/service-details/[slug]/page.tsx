@@ -15,7 +15,7 @@ const ServicePage = async ({
   const service = services[slug as keyof typeof services];
   if (!service) return <div>Service not found</div>;
   return (
-    <main>
+    <main className="p-2">
       <ServiceHero service={service} />
       <ServiceFeatures service={service} />
       <ServiceBenefits service={service} />
