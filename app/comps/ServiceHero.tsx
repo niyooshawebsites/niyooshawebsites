@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/item";
 import { ImCheckboxChecked } from "react-icons/im";
 import Image from "next/image";
+import Link from "next/link";
 
 interface ServiceHeroProps {
   service: ServiceInterface;
@@ -20,8 +21,10 @@ export default function ServiceHero({ service }: ServiceHeroProps) {
   return (
     <section className="container mx-auto py-10 grid grid-cols-1 gap-10 text-gray-100">
       <article>
-        <h1 className="text-4xl font-bold mb-4">{service.title}</h1>
-        <Separator className="text-gray-100" />
+        <h1 className="text-4xl font-bold mb-4 text-orange-500">
+          {service.title}
+        </h1>
+        <Separator className="bg-gray-500" />
       </article>
 
       <article className="container mx-auto grid md:grid-cols-2 gap-10 ">
@@ -41,28 +44,30 @@ export default function ServiceHero({ service }: ServiceHeroProps) {
             className="my-10 rounded-xl"
           />
 
-          <Button
-            size="lg"
-            variant="secondary"
-            className="bg-blue-500 shadow-lg shadow-blue-500/50 cursor-pointer hover:translate-y-0.5"
-          >
-            Get a Free Consultation
-          </Button>
+          <Link href="/contact">
+            <Button
+              size="lg"
+              variant="secondary"
+              className="bg-orange-500 shadow-lg shadow-orange-500/50 cursor-pointer hover:translate-y-0.5"
+            >
+              Get a Free Consultation
+            </Button>
+          </Link>
         </div>
 
         {/* Right */}
-        <Card className="p-5 border-0">
+        <Card className="p-5 border-0 ">
           {service.features.map((item) => (
             <Item
               key={item.title}
               variant="outline"
-              className="border-blue-500 shadow-md shadow-gray-500/50 hover:-translate-y-0.5 hover:cursor-pointer"
+              className="border-gray-950 shadow-md shadow-orange-500/50 hover:-translate-y-0.5 hover:cursor-pointer bg-gray-950"
             >
               <ItemMedia variant="icon">
-                <ImCheckboxChecked className="text-blue-500" />
+                <ImCheckboxChecked className="text-orange-500" />
               </ItemMedia>
               <ItemContent>
-                <ItemTitle className="text-blue-500">{item.title}</ItemTitle>
+                <ItemTitle className="text-orange-500">{item.title}</ItemTitle>
                 <ItemDescription>{item.desc}</ItemDescription>
               </ItemContent>
             </Item>

@@ -70,10 +70,7 @@ const DropdownList = ({
   <ul className="grid gap-2 p-2 w-[320px]">
     {items.map((item) => (
       <li key={item.href}>
-        <NavigationMenuLink
-          asChild
-          className="border border-blue-500 hover:bg-gray-950"
-        >
+        <NavigationMenuLink asChild className="border-0 hover:bg-orange-500">
           <Link
             href={item.href}
             className="block rounded-md px-3 py-2 text-sm hover:bg-accent"
@@ -90,48 +87,65 @@ const Navbar = () => {
   return (
     <NavigationMenu className="container mx-auto py-2 text-gray-100">
       <NavigationMenuList className=" flex gap-6">
-        <NavigationMenuItem className="relative hover:bg-blue-500 hover:cursor-pointer rounded-md">
-          <NavigationMenuLink asChild>
+        <NavigationMenuItem className="relative rounded-md">
+          <NavigationMenuLink
+            asChild
+            className="hover:text-orange-500 hover:cursor-pointer"
+          >
             <Link href="/">Home</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
 
-        <NavigationMenuItem className=" hover:bg-blue-500 hover:cursor-pointer rounded-md">
-          <NavigationMenuTrigger>Web Development</NavigationMenuTrigger>
+        <NavigationMenuItem className="hover:cursor-pointer rounded-md">
+          <NavigationMenuTrigger className="hover:text-orange-500 hover:cursor-pointer">
+            Web Development
+          </NavigationMenuTrigger>
           <NavigationMenuContent className="bg-gray-900">
             <DropdownList items={webDevComps} />
           </NavigationMenuContent>
         </NavigationMenuItem>
 
-        <NavigationMenuItem className=" hover:bg-blue-500 hover:cursor-pointer rounded-md">
-          <NavigationMenuTrigger>Mobile Development</NavigationMenuTrigger>
-          <NavigationMenuContent className="bg-gray-900">
+        <NavigationMenuItem className="hover:cursor-pointer rounded-md">
+          <NavigationMenuTrigger className="hover:text-orange-500 hover:cursor-pointer">
+            Mobile Development
+          </NavigationMenuTrigger>
+          <NavigationMenuContent className="bg-gray-900 ">
             <DropdownList items={mobileDevComps} />
           </NavigationMenuContent>
         </NavigationMenuItem>
 
-        <NavigationMenuItem className=" hover:bg-blue-500 hover:cursor-pointer rounded-md">
-          <NavigationMenuTrigger>Graphic Designing</NavigationMenuTrigger>
+        <NavigationMenuItem className="hover:cursor-pointer rounded-md">
+          <NavigationMenuTrigger className="hover:text-orange-500 hover:cursor-pointer">
+            Graphic Designing
+          </NavigationMenuTrigger>
           <NavigationMenuContent className="bg-gray-900">
             <DropdownList items={graphicsComps} />
           </NavigationMenuContent>
         </NavigationMenuItem>
 
-        <NavigationMenuItem className=" hover:bg-blue-500 hover:cursor-pointer rounded-md">
-          <NavigationMenuTrigger>Branding & Marketing</NavigationMenuTrigger>
+        <NavigationMenuItem className="hover:cursor-pointer rounded-md">
+          <NavigationMenuTrigger className="hover:text-orange-500 hover:cursor-pointer">
+            Branding & Marketing
+          </NavigationMenuTrigger>
           <NavigationMenuContent className="bg-gray-900">
             <DropdownList items={brandingMarketingComps} />
           </NavigationMenuContent>
         </NavigationMenuItem>
 
-        <NavigationMenuItem className=" hover:bg-blue-500 hover:cursor-pointer rounded-md">
-          <NavigationMenuLink asChild>
+        <NavigationMenuItem className="hover:cursor-pointer rounded-md">
+          <NavigationMenuLink
+            asChild
+            className="hover:text-orange-500 hover:cursor-pointer"
+          >
             <Link href="/about">About</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
 
-        <NavigationMenuItem className=" hover:bg-blue-500 hover:cursor-pointer rounded-md">
-          <NavigationMenuLink asChild>
+        <NavigationMenuItem className="hover:cursor-pointer rounded-md">
+          <NavigationMenuLink
+            asChild
+            className="hover:text-orange-500 hover:cursor-pointer"
+          >
             <Link href="/contact">Contact</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
@@ -140,7 +154,7 @@ const Navbar = () => {
           <NavigationMenuLink asChild>
             <Link
               href="tel:+919205504115"
-              className="bg-blue-500 text-gray-100 hover:bg-blue-600"
+              className="bg-orange-500 shadow-lg shadow-orange-500/50 text-gray-100 hover:bg-orange-600"
             >
               +91 9205504115
             </Link>

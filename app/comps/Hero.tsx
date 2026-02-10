@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section className=" rounded-3xl p-10 bg-gray-950  backdrop-blur-md">
+    <section className=" rounded-3xl p-10 bg-gray-950 ">
       <article className="py-24 text-center h-[300px] md:h-[450px] bg-[url('/img/online.png')] bg-no-repeat bg-center bg-contain -mt-16"></article>
       <article className="flex flex-col justify-center items-center -mt-32">
         <h1 className="text-7xl text-gray-100 font-bold tracking-tight text-center">
@@ -15,7 +15,7 @@ const Hero = () => {
           <Button
             size="lg"
             variant="secondary"
-            className="bg-orange-500 shadow-lg shadow-orange-500/50 cursor-pointer hover:translate-y-0.5"
+            className="bg-orange-500 shadow-lg shadow-orange-500/50 cursor-pointer hover:translate-y-0.5 hover:bg-orange-600"
           >
             Contact us
           </Button>

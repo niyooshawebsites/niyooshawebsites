@@ -29,11 +29,10 @@ const Footer = () => {
         <div className="text-gray-100">
           <h1 className="text-3xl mb-3 text-orange-500">About</h1>
           <p className="mb-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-            odit quidem molestiae, sed voluptatem iure vero nesciunt nemo dolore
-            voluptate dolor placeat delectus quaerat eligendi repellendus
-            laboriosam asperiores, ullam nostrum iste fuga in omnis beatae quasi
-            deserunt.
+            Welcome to Niyoosha Websites, where innovation meets optimization!
+            As a premier website and SEO company, we are dedicated to
+            transforming your digital presence and driving unparalleled success
+            for your business.
           </p>
           <Button
             variant="secondary"
@@ -107,10 +106,10 @@ const Footer = () => {
         <div className="text-gray-100 flex flex-col gap-y-3">
           <h1 className="text-3xl text-orange-500">Follow us</h1>
           <div className="flex gap-3 ">
-            <AiOutlineYoutube className="border border-gray-100 text-5xl inline-block p-1 rounded-full hover:cursor-pointer hover:translate-y-0.5" />
-            <FaInstagram className="border border-gray-100 text-5xl inline-block p-1 rounded-full hover:cursor-pointer hover:translate-y-0.5" />
-            <FaFacebook className="border border-gray-100 text-5xl inline-block p-1 rounded-full hover:cursor-pointer hover:translate-y-0.5" />
-            <FaWhatsapp className="border border-gray-100 text-5xl inline-block p-1 rounded-full hover:cursor-pointer hover:translate-y-0.5" />
+            <AiOutlineYoutube className="border border-gray-100 text-5xl inline-block p-1 rounded-full hover:cursor-pointer hover:translate-y-0.5 hover:text-orange-500" />
+            <FaInstagram className="border border-gray-100 text-5xl inline-block p-1 rounded-full hover:cursor-pointer hover:translate-y-0.5 hover:text-orange-500" />
+            <FaFacebook className="border border-gray-100 text-5xl inline-block p-1 rounded-full hover:cursor-pointer hover:translate-y-0.5 hover:text-orange-500" />
+            <FaWhatsapp className="border border-gray-100 text-5xl inline-block p-1 rounded-full hover:cursor-pointer hover:translate-y-0.5 hover:text-orange-500" />
           </div>
         </div>
       </section>

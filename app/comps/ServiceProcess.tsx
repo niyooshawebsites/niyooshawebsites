@@ -31,11 +31,14 @@ const ServiceProcess = () => {
 
         <div className="grid md:grid-cols-4 gap-8">
           {processSteps.map((step) => (
-            <div key={step.step} className="text-center p-6 border rounded-xl">
+            <div
+              key={step.step}
+              className="text-center p-6 border bg-gray-950 border-gray-950 rounded-xl hover:scale-105 transition-all"
+            >
               <span className="text-primary text-4xl font-bold">
                 {step.step}
               </span>
-              <h3 className="mt-4 font-semibold text-xl text-blue-500">
+              <h3 className="mt-4 font-semibold text-xl text-orange-500">
                 {step.title}
               </h3>
               <p className="text-gray-100 mt-2">{step.desc}</p>

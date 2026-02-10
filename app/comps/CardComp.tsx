@@ -20,7 +20,7 @@ interface CardBriefings {
 
 const CardComp = ({ title, desc, link, showLink }: CardBriefings) => {
   return (
-    <Card className="border border-orange-500 bg-gray-950">
+    <Card className="border border-gray-950 bg-gray-950">
       <CardHeader className="flex items-center">
         <LuPackageCheck className="text-3xl text-gray-100" />
         <CardTitle className="text-orange-500 text-xl">{title}</CardTitle>

@@ -28,14 +28,14 @@ const WhyUs = () => {
             deliver solutions tailored to meet your unique business goals.
           </p>
 
-          <Button className="mt-10 border border-orange-500 text-orange-500 shadow-lg shadow-orange-500/50 cursor-pointer hover:translate-y-0.5">
+          <Button className="mt-10 border border-orange-500 text-orange-500 shadow-lg shadow-orange-500/50 cursor-pointer hover:translate-y-0.5 hover:bg-orange-500 hover:text-gray-100">
             More Info
           </Button>
         </div>
         <div className="w-full md:w-6/12 h-[500px] bg-[url('/img/common.jpg')] bg-cover rounded-2xl"></div>
       </article>
       <article className="grid md:grid-cols-4 gap-6">
-        <div className="bg-gray-950 border border-orange-500 text-gray-100 p-5 rounded-xl">
+        <div className="bg-gray-950 border border-gray-950 text-gray-100 p-5 rounded-xl">
           <h1 className="text-2xl mb-2 text-orange-500">
             Customized Web Solutions
           </h1>
@@ -46,7 +46,7 @@ const WhyUs = () => {
           </p>
         </div>
 
-        <div className="bg-gray-950 border border-orange-500 text-gray-100 p-5 rounded-xl">
+        <div className="bg-gray-950 border border-gray-950 text-gray-100 p-5 rounded-xl">
           <h1 className="text-2xl mb-2 text-orange-500">
             Data-Driven Approach
           </h1>
@@ -57,7 +57,7 @@ const WhyUs = () => {
           </p>
         </div>
 
-        <div className="bg-gray-950 border border-orange-500 text-gray-100 p-5 rounded-xl">
+        <div className="bg-gray-950 border border-gray-950 text-gray-100 p-5 rounded-xl">
           <h1 className="text-2xl mb-2 text-orange-500">
             Transparent Communication
           </h1>
@@ -69,7 +69,7 @@ const WhyUs = () => {
           </p>
         </div>
 
-        <div className="bg-gray-950 border border-orange-500 text-gray-100 p-5 rounded-xl">
+        <div className="bg-gray-950 border border-gray-950 text-gray-100 p-5 rounded-xl">
           <h1 className="text-2xl mb-2 text-orange-500">
             Results-Oriented Focus
           </h1>
