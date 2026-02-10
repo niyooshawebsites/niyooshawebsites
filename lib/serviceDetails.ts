@@ -452,7 +452,7 @@ export const services = {
       },
     ],
     link: "/service-details/wordpress",
-    imageLink: "/img/services/react.png",
+    imageLink: "/img/services/wordpress.png",
   },
   woocommerce: {
     title: "WooCommerce Development",
@@ -502,7 +502,7 @@ export const services = {
       },
     ],
     link: "/service-details/woocommerce",
-    imageLink: "/img/services/react.png",
+    imageLink: "/img/services/woocommerce.png",
   },
   shopify: {
     title: "Shopify Development",
@@ -552,6 +552,561 @@ export const services = {
       },
     ],
     link: "/service-details/shopify",
-    imageLink: "/img/services/react.png",
+    imageLink: "/img/services/shopify.png",
+  },
+  android: {
+    title: "Android App Development",
+    subtitle:
+      "Expert Android App Development Services to Build Scalable & High-Performance Mobile Applications",
+    description:
+      "At NIYOOSHA WEBSITES, we provide end-to-end Android app development services to build secure, scalable, and user-friendly mobile applications. Android is the world’s most widely used mobile platform, offering flexibility, powerful APIs, and deep customization options—making it ideal for startups, enterprises, and consumer-focused businesses. Whether you need a brand-new Android app, want to modernize an existing one, or integrate advanced features, our experienced Android developers help transform your ideas into reliable, high-performing mobile experiences that users love.",
+    icon: "android",
+    features: [
+      {
+        title: "Custom Android App Development",
+        desc: "Build fully customized Android applications tailored to your business requirements, target audience, and performance goals.",
+      },
+      {
+        title: "UI/UX Design for Android",
+        desc: "Design intuitive, visually appealing, and user-centric interfaces following Material Design guidelines for consistent user experiences.",
+      },
+      {
+        title: "API & Backend Integration",
+        desc: "Seamlessly integrate RESTful APIs, third-party services, payment gateways, and backend systems for smooth data flow.",
+      },
+      {
+        title: "App Migration & Modernization",
+        desc: "Upgrade legacy Android apps to modern architectures, improve performance, and enhance compatibility with the latest Android versions.",
+      },
+      {
+        title: "Performance Optimization & Security",
+        desc: "Optimize app speed, battery usage, and memory while implementing robust security practices to protect user data.",
+      },
+      {
+        title: "Play Store Deployment & Support",
+        desc: "Complete assistance with app testing, Play Store deployment, version updates, and ongoing maintenance support.",
+      },
+    ],
+    benefits: [
+      {
+        title: "Wide Device & Market Reach",
+        desc: "Android powers billions of devices worldwide across smartphones, tablets, TVs, wearables, and IoT devices. This wide ecosystem allows businesses to reach a massive and diverse audience across different regions and price segments. By developing Android applications, companies can target global markets efficiently while ensuring compatibility across multiple devices, screen sizes, and hardware configurations, making Android a strategic platform for growth, visibility, and long-term digital expansion in competitive mobile-driven industries.",
+      },
+      {
+        title: "High Performance & Scalability",
+        desc: "Android applications are built to handle complex workflows, real-time data, and high user traffic efficiently. With modern tools, optimized architectures, and native performance capabilities, apps remain responsive and smooth even as features grow. Developers can scale functionality, integrate cloud services, and support increasing user bases without sacrificing performance, ensuring long-term reliability for startups and enterprises building mission-critical mobile applications.",
+      },
+      {
+        title: "Flexible & Customizable Platform",
+        desc: "Android offers unmatched flexibility and customization compared to other mobile platforms. Developers can deeply customize UI components, system interactions, hardware access, and third-party integrations. This flexibility allows businesses to build unique app experiences aligned with branding and functional needs. Continuous updates, strong developer tools, and open ecosystem support ensure Android apps remain adaptable, future-ready, and aligned with evolving business and technology requirements.",
+      },
+    ],
+    link: "/service-details/android",
+    imageLink: "/img/services/android.png",
+  },
+  ios: {
+    title: "iOS App Development",
+    subtitle:
+      "Expert iOS App Development Services to Build Secure & High-Performance Apple Applications",
+    description:
+      "At NIYOOSHA WEBSITES, we deliver premium iOS app development services to build secure, high-performing, and visually refined mobile applications for Apple devices. iOS is known for its stability, performance, and strong security ecosystem, making it the preferred platform for businesses targeting high-value users. Whether you need a new iPhone or iPad app, want to upgrade an existing iOS application, or integrate advanced features, our skilled iOS developers help transform your ideas into polished digital products that meet Apple’s strict quality standards and user expectations.",
+    icon: "ios",
+    features: [
+      {
+        title: "Custom iOS App Development",
+        desc: "Develop tailor-made iOS applications designed specifically for your business goals, users, and performance requirements.",
+      },
+      {
+        title: "UI/UX Design for iOS",
+        desc: "Create elegant, intuitive, and user-friendly interfaces following Apple’s Human Interface Guidelines for seamless experiences.",
+      },
+      {
+        title: "API & Third-Party Integration",
+        desc: "Integrate REST APIs, cloud services, payment gateways, and third-party SDKs smoothly into iOS applications.",
+      },
+      {
+        title: "App Migration & Upgrades",
+        desc: "Modernize legacy iOS apps, upgrade codebases, and ensure compatibility with the latest iOS versions and devices.",
+      },
+      {
+        title: "Performance & Security Optimization",
+        desc: "Optimize app speed, memory usage, and battery efficiency while implementing industry-grade security practices.",
+      },
+      {
+        title: "App Store Deployment & Maintenance",
+        desc: "End-to-end support for testing, App Store submission, approvals, updates, and long-term app maintenance.",
+      },
+    ],
+    benefits: [
+      {
+        title: "Premium User Experience",
+        desc: "iOS applications are known for their smooth performance, polished interfaces, and consistent user experience across Apple devices. With strict design standards and powerful native frameworks, iOS apps deliver reliability and visual excellence. Businesses benefit from higher user engagement, stronger brand perception, and better retention rates, especially among premium users who value quality, security, and seamless performance in mobile applications across the Apple ecosystem.",
+      },
+      {
+        title: "High Security & Reliability",
+        desc: "Apple’s iOS platform offers advanced security features such as sandboxing, secure boot, data encryption, and strict app review processes. These measures protect user data and reduce vulnerabilities, making iOS ideal for finance, healthcare, enterprise, and data-sensitive applications. Strong platform stability ensures fewer crashes, predictable performance, and long-term reliability for mission-critical business apps.",
+      },
+      {
+        title: "Strong Ecosystem & Performance",
+        desc: "The Apple ecosystem provides powerful development tools, consistent hardware standards, and deep integration across devices like iPhone, iPad, Apple Watch, and Mac. This ecosystem enables high-performance apps with smooth animations and efficient resource usage. Continuous platform updates and long-term device support ensure iOS applications remain future-ready, scalable, and aligned with evolving business and technology needs.",
+      },
+    ],
+    link: "/service-details/ios",
+    imageLink: "/img/services/ios.png",
+  },
+  logoDesigning: {
+    title: "Logo Designing",
+    subtitle:
+      "Professional Logo Design Services to Build a Strong & Memorable Brand Identity",
+    description:
+      "At NIYOOSHA WEBSITES, we offer professional logo designing services that help businesses create a strong, recognizable, and lasting brand identity. A logo is more than just a visual mark—it represents your brand’s values, personality, and credibility. Our creative designers combine strategy, creativity, and industry insights to craft logos that resonate with your audience and stand out in competitive markets. Whether you are launching a new brand or rebranding an existing one, we deliver logos that communicate trust, clarity, and professionalism.",
+    icon: "logo",
+    features: [
+      {
+        title: "Custom Logo Design",
+        desc: "Create unique, original logo designs tailored to your brand vision, industry, and target audience.",
+      },
+      {
+        title: "Brand Research & Concept Creation",
+        desc: "In-depth research and concept development to ensure your logo aligns with brand values and market positioning.",
+      },
+      {
+        title: "Typography & Color Selection",
+        desc: "Careful selection of fonts and color palettes that enhance brand recognition and emotional connection.",
+      },
+      {
+        title: "Multiple Design Concepts",
+        desc: "Receive multiple logo concepts and revisions to choose the best design that represents your brand.",
+      },
+      {
+        title: "Scalable & Versatile Designs",
+        desc: "Logos designed to work seamlessly across websites, mobile apps, social media, print, and marketing materials.",
+      },
+      {
+        title: "Source Files & Brand Assets",
+        desc: "Delivery of high-quality source files and formats suitable for digital, print, and future brand use.",
+      },
+    ],
+    benefits: [
+      {
+        title: "Strong Brand Identity",
+        desc: "A professionally designed logo establishes a strong brand identity and creates a lasting first impression. It helps customers instantly recognize your business and associate it with trust and quality. Consistent logo usage across platforms strengthens brand recall, builds credibility, and differentiates your business from competitors, making it easier for customers to connect emotionally with your brand in crowded and competitive markets.",
+      },
+      {
+        title: "Professional & Credible Image",
+        desc: "A well-crafted logo conveys professionalism and reliability, signaling that your business is serious and trustworthy. Customers are more likely to engage with brands that look polished and consistent. A strong logo enhances perceived value, improves brand confidence, and supports marketing efforts by presenting a cohesive visual identity across all customer touchpoints.",
+      },
+      {
+        title: "Versatility & Long-Term Value",
+        desc: "A thoughtfully designed logo is timeless, scalable, and adaptable to evolving business needs. It works across digital platforms, print materials, advertisements, and merchandise without losing clarity or impact. Investing in a quality logo ensures long-term value, reduces the need for frequent redesigns, and supports brand growth as your business expands into new markets and channels.",
+      },
+    ],
+    link: "/service-details/logo-designing",
+    imageLink: "/img/services/logo-designing.png",
+  },
+
+  brandingDesign: {
+    title: "Banner, Letterhead & Visiting Card Designing",
+    subtitle:
+      "Professional Branding Design Services to Create a Consistent & Impactful Business Identity",
+    description:
+      "At NIYOOSHA WEBSITES, we provide professional banner, letterhead, and visiting card designing services that help businesses build a consistent and credible brand presence. From marketing banners to official stationery and business cards, every design element plays a key role in how your brand is perceived. Our creative team ensures each design aligns perfectly with your brand identity, colors, and messaging, delivering visually appealing and professionally crafted assets that strengthen brand recognition across both digital and print platforms.",
+    icon: "branding",
+    features: [
+      {
+        title: "Custom Banner Design",
+        desc: "Design eye-catching banners for websites, social media, promotions, events, and marketing campaigns.",
+      },
+      {
+        title: "Professional Letterhead Design",
+        desc: "Create clean and professional letterheads that reflect your brand identity for official communication.",
+      },
+      {
+        title: "Visiting Card Design",
+        desc: "Design modern, elegant, and memorable visiting cards that leave a strong first impression.",
+      },
+      {
+        title: "Brand Consistency Across Designs",
+        desc: "Ensure uniform colors, typography, and design language across all branding materials.",
+      },
+      {
+        title: "Print-Ready & Digital Formats",
+        desc: "Deliver high-quality, print-ready files along with digital versions for online use.",
+      },
+      {
+        title: "Revisions & Customization",
+        desc: "Multiple revisions and customization options to ensure complete satisfaction with the final designs.",
+      },
+    ],
+    benefits: [
+      {
+        title: "Consistent Brand Identity",
+        desc: "Consistent branding across banners, letterheads, and visiting cards helps establish a unified and recognizable brand image. When all visual elements follow the same design language, customers perceive the brand as more professional and trustworthy. This consistency improves brand recall, strengthens credibility, and ensures your business looks polished across marketing, communication, and networking channels.",
+      },
+      {
+        title: "Professional Business Presence",
+        desc: "Well-designed stationery and marketing materials convey professionalism and attention to detail. Letterheads and visiting cards play a vital role in official communication and business interactions, while banners attract attention in marketing campaigns. Together, they help businesses present a strong, confident, and reliable image to clients, partners, and stakeholders.",
+      },
+      {
+        title: "Effective Marketing & Networking",
+        desc: "Banners enhance visibility in promotions and campaigns, while visiting cards support personal connections and networking opportunities. Professionally designed branding materials help communicate your message clearly, make your brand memorable, and support long-term marketing and relationship-building efforts, ensuring your business stands out in competitive environments.",
+      },
+    ],
+    link: "/service-details/branding-design",
+    imageLink: "/img/services/branding-design.png",
+  },
+  letterheadDesigning: {
+    title: "Letterhead Designing",
+    subtitle:
+      "Professional Letterhead Design Services for Official & Brand-Aligned Business Communication",
+    description:
+      "At NIYOOSHA WEBSITES, we offer professional letterhead designing services that help businesses maintain a consistent and credible brand presence in official communication. A well-designed letterhead adds authenticity, professionalism, and trust to documents such as invoices, proposals, contracts, and official letters. Our designers focus on clean layouts, balanced typography, and brand-aligned visuals to ensure your letterhead represents your business identity clearly and professionally across both print and digital formats.",
+    icon: "letterhead",
+    features: [
+      {
+        title: "Custom Letterhead Design",
+        desc: "Create clean, professional letterheads tailored to your brand identity and business requirements.",
+      },
+      {
+        title: "Brand-Aligned Layout & Typography",
+        desc: "Use consistent fonts, spacing, and layout to maintain a polished and professional look.",
+      },
+      {
+        title: "Logo & Brand Element Integration",
+        desc: "Seamless placement of logo, colors, and brand elements without cluttering the design.",
+      },
+      {
+        title: "Print-Ready Design",
+        desc: "High-resolution, print-ready letterhead files suitable for professional printing.",
+      },
+      {
+        title: "Digital Letterhead Format",
+        desc: "Optimized digital formats for email attachments and online documentation.",
+      },
+      {
+        title: "Revisions & Customization",
+        desc: "Multiple revisions to ensure the final letterhead meets your expectations perfectly.",
+      },
+    ],
+    benefits: [
+      {
+        title: "Professional Business Communication",
+        desc: "A professionally designed letterhead enhances the credibility of official documents and business correspondence. It signals trust, authenticity, and attention to detail, making clients and partners more confident in your brand and communication.",
+      },
+      {
+        title: "Consistent Brand Identity",
+        desc: "Using a consistent letterhead across all documents reinforces brand identity. Repeated exposure to the same visual elements helps build brand recognition and ensures your communication remains uniform and professional across departments and channels.",
+      },
+      {
+        title: "Trust & Authenticity",
+        desc: "Official documents on branded letterheads feel more legitimate and reliable. This reduces confusion, improves brand perception, and strengthens professional relationships with clients, vendors, and stakeholders.",
+      },
+    ],
+    link: "/service-details/letterhead-designing",
+    imageLink: "/img/services/letterhead-designing.png",
+  },
+  visitingCardDesigning: {
+    title: "Visiting Card Designing",
+    subtitle:
+      "Creative Visiting Card Design Services to Make a Lasting First Impression",
+    description:
+      "At NIYOOSHA WEBSITES, we design professional and visually appealing visiting cards that help businesses leave a strong and lasting impression. A visiting card is often the first physical representation of your brand during meetings and networking. Our designers focus on clarity, aesthetics, and brand consistency to create visiting cards that are memorable, easy to read, and aligned with your overall brand identity.",
+    icon: "visiting-card",
+    features: [
+      {
+        title: "Custom Visiting Card Design",
+        desc: "Unique and customized visiting card designs that reflect your brand personality and values.",
+      },
+      {
+        title: "Clean & Readable Layouts",
+        desc: "Well-structured layouts that present contact details clearly and professionally.",
+      },
+      {
+        title: "Typography & Color Selection",
+        desc: "Carefully chosen fonts and colors to enhance readability and brand recall.",
+      },
+      {
+        title: "Single & Double-Sided Designs",
+        desc: "Design options for both single-sided and double-sided visiting cards based on your needs.",
+      },
+      {
+        title: "Print-Ready Files",
+        desc: "High-quality, print-ready files suitable for standard and premium card printing.",
+      },
+      {
+        title: "Revisions & Customization",
+        desc: "Multiple revisions to ensure the final design matches your expectations perfectly.",
+      },
+    ],
+    benefits: [
+      {
+        title: "Strong First Impression",
+        desc: "A professionally designed visiting card creates a positive first impression during meetings and networking events. It reflects professionalism, confidence, and attention to detail, helping your brand stand out instantly.",
+      },
+      {
+        title: "Improved Brand Recall",
+        desc: "Consistent branding, colors, and typography make your visiting card more memorable. This improves brand recall and increases the chances that potential clients or partners remember and contact you later.",
+      },
+      {
+        title: "Effective Networking Tool",
+        desc: "Visiting cards remain one of the most effective offline networking tools. A well-designed card communicates essential information clearly and helps build long-term business relationships through professional presentation.",
+      },
+    ],
+    link: "/service-details/visiting-card-designing",
+    imageLink: "/img/services/visiting-card-designing.png",
+  },
+  seo: {
+    title: "Search Engine Optimization (SEO)",
+    subtitle:
+      "Result-Driven SEO Services to Improve Website Visibility & Organic Traffic",
+    description:
+      "At NIYOOSHA WEBSITES, we offer comprehensive Search Engine Optimization (SEO) services designed to improve your website’s visibility on search engines and drive high-quality organic traffic. Our SEO strategies focus on technical optimization, keyword research, content optimization, and ethical link-building to help your business rank higher, attract the right audience, and achieve long-term growth. Whether you are a startup or an established business, our SEO solutions are tailored to deliver measurable and sustainable results.",
+    icon: "seo",
+    features: [
+      {
+        title: "Keyword Research & Strategy",
+        desc: "Identify high-intent keywords that align with your business goals and target audience.",
+      },
+      {
+        title: "On-Page SEO Optimization",
+        desc: "Optimize content, meta tags, headings, and internal links for better rankings.",
+      },
+      {
+        title: "Technical SEO",
+        desc: "Improve site speed, indexing, crawlability, and mobile performance.",
+      },
+      {
+        title: "Content Optimization",
+        desc: "Enhance existing content and structure for improved search visibility.",
+      },
+      {
+        title: "Ethical Link Building",
+        desc: "Build high-quality backlinks to strengthen domain authority.",
+      },
+      {
+        title: "SEO Reporting & Analytics",
+        desc: "Track performance with detailed reports and actionable insights.",
+      },
+    ],
+    benefits: [
+      {
+        title: "Increased Organic Traffic",
+        desc: "SEO helps attract users actively searching for your products or services, resulting in higher-quality traffic and better conversion potential.",
+      },
+      {
+        title: "Long-Term Visibility",
+        desc: "Unlike paid ads, SEO delivers sustainable results that continue to grow over time.",
+      },
+      {
+        title: "Improved Credibility & Trust",
+        desc: "Higher search rankings build trust and credibility with potential customers.",
+      },
+    ],
+    link: "/service-details/seo",
+    imageLink: "/img/services/seo.png",
+  },
+
+  facebookMarketing: {
+    title: "Facebook Marketing",
+    subtitle:
+      "Targeted Facebook Marketing Services to Boost Brand Awareness & Conversions",
+    description:
+      "At NIYOOSHA WEBSITES, we provide strategic Facebook marketing services to help businesses connect with their target audience, increase engagement, and drive conversions. Using advanced targeting, creative ad designs, and performance tracking, we ensure your brand reaches the right people at the right time. From organic content strategies to paid advertising campaigns, we help you maximize ROI on the world’s largest social media platform.",
+    icon: "facebook",
+    features: [
+      {
+        title: "Facebook Ad Campaigns",
+        desc: "Create and manage high-performing ad campaigns focused on results.",
+      },
+      {
+        title: "Audience Targeting",
+        desc: "Reach the right users based on interests, behavior, and demographics.",
+      },
+      {
+        title: "Creative Ad Design",
+        desc: "Design engaging visuals and ad copies that capture attention.",
+      },
+      {
+        title: "Campaign Optimization",
+        desc: "Continuously optimize ads for better engagement and lower costs.",
+      },
+      {
+        title: "Page Management",
+        desc: "Manage posts, engagement, and messaging professionally.",
+      },
+      {
+        title: "Analytics & Reporting",
+        desc: "Detailed performance reports to measure success and ROI.",
+      },
+    ],
+    benefits: [
+      {
+        title: "Highly Targeted Reach",
+        desc: "Facebook allows precise targeting, ensuring ads reach users most likely to convert.",
+      },
+      {
+        title: "Increased Brand Awareness",
+        desc: "Build brand visibility and recognition through consistent engagement.",
+      },
+      {
+        title: "Cost-Effective Advertising",
+        desc: "Optimized campaigns deliver better results at controlled budgets.",
+      },
+    ],
+    link: "/service-details/facebook-marketing",
+    imageLink: "/img/services/facebook.png",
+  },
+
+  instagramMarketing: {
+    title: "Instagram Marketing",
+    subtitle:
+      "Creative Instagram Marketing Services to Grow Engagement & Brand Loyalty",
+    description:
+      "At NIYOOSHA WEBSITES, we help brands grow and engage their audience through creative Instagram marketing strategies. With visually appealing content, reels, stories, and targeted ads, we help businesses build strong brand presence and meaningful connections. Our Instagram marketing approach focuses on storytelling, engagement, and measurable growth that aligns with your business objectives.",
+    icon: "instagram",
+    features: [
+      {
+        title: "Content & Reel Strategy",
+        desc: "Create engaging reels, posts, and stories that resonate with users.",
+      },
+      {
+        title: "Instagram Ad Campaigns",
+        desc: "Run targeted ads to increase reach, engagement, and conversions.",
+      },
+      {
+        title: "Profile Optimization",
+        desc: "Optimize bio, highlights, and visuals for better brand presentation.",
+      },
+      {
+        title: "Hashtag Strategy",
+        desc: "Use relevant hashtags to improve reach and discoverability.",
+      },
+      {
+        title: "Engagement Management",
+        desc: "Respond to comments and messages to build community.",
+      },
+      {
+        title: "Performance Tracking",
+        desc: "Monitor growth, reach, and engagement with detailed analytics.",
+      },
+    ],
+    benefits: [
+      {
+        title: "Higher Engagement Rates",
+        desc: "Instagram’s visual-first approach drives strong user interaction.",
+      },
+      {
+        title: "Stronger Brand Identity",
+        desc: "Consistent visuals and messaging strengthen brand perception.",
+      },
+      {
+        title: "Audience Growth",
+        desc: "Strategic content and ads help grow followers organically.",
+      },
+    ],
+    link: "/service-details/instagram-marketing",
+    imageLink: "/img/services/instagram.png",
+  },
+
+  googleBusinessProfile: {
+    title: "Google Business Profile Optimization",
+    subtitle:
+      "Optimize Your Google Business Profile to Attract Local Customers",
+    description:
+      "At NIYOOSHA WEBSITES, we optimize and manage Google Business Profiles to help businesses improve local visibility and attract nearby customers. A well-optimized profile increases your chances of appearing in local searches, Google Maps, and customer discovery results. We ensure accurate information, engaging visuals, and regular updates to build trust and drive local traffic.",
+    icon: "google-business",
+    features: [
+      {
+        title: "Profile Setup & Optimization",
+        desc: "Complete setup and optimization for better local rankings.",
+      },
+      {
+        title: "Business Information Management",
+        desc: "Ensure accurate NAP details and service descriptions.",
+      },
+      {
+        title: "Photo & Post Updates",
+        desc: "Regular posts and images to boost engagement.",
+      },
+      {
+        title: "Review Management",
+        desc: "Support with review responses and reputation building.",
+      },
+      {
+        title: "Local SEO Integration",
+        desc: "Align profile optimization with local SEO strategies.",
+      },
+      {
+        title: "Insights & Reporting",
+        desc: "Track calls, visits, and engagement metrics.",
+      },
+    ],
+    benefits: [
+      {
+        title: "Improved Local Visibility",
+        desc: "Appear prominently in local searches and Google Maps.",
+      },
+      {
+        title: "Increased Customer Trust",
+        desc: "Accurate information and reviews build credibility.",
+      },
+      {
+        title: "Higher Local Conversions",
+        desc: "Drive calls, visits, and inquiries from nearby customers.",
+      },
+    ],
+    link: "/service-details/google-business-profile",
+    imageLink: "/img/services/google-business.png",
+  },
+
+  googleAds: {
+    title: "Google Ads Management",
+    subtitle:
+      "High-Performance Google Ads Services to Drive Instant Traffic & Leads",
+    description:
+      "At NIYOOSHA WEBSITES, we provide expert Google Ads management services to help businesses generate immediate visibility, leads, and sales. Our team creates data-driven ad campaigns across Search, Display, Shopping, and YouTube to maximize ROI. From keyword selection to continuous optimization, we focus on delivering measurable results while controlling ad spend efficiently.",
+    icon: "google-ads",
+    features: [
+      {
+        title: "Search & Display Ads",
+        desc: "Create targeted ads to capture high-intent users.",
+      },
+      {
+        title: "Keyword & Bid Strategy",
+        desc: "Optimize bids and keywords for better performance.",
+      },
+      {
+        title: "Ad Copy & Creative Design",
+        desc: "Write compelling ad copies that drive clicks.",
+      },
+      {
+        title: "Conversion Tracking",
+        desc: "Track leads, sales, and campaign performance accurately.",
+      },
+      {
+        title: "Campaign Optimization",
+        desc: "Continuous improvements to reduce cost and increase ROI.",
+      },
+      {
+        title: "Reporting & Insights",
+        desc: "Transparent performance reports with actionable insights.",
+      },
+    ],
+    benefits: [
+      {
+        title: "Instant Visibility",
+        desc: "Google Ads place your business at the top of search results instantly.",
+      },
+      {
+        title: "High-Intent Traffic",
+        desc: "Reach users actively searching for your services or products.",
+      },
+      {
+        title: "Measurable ROI",
+        desc: "Track every click, lead, and conversion precisely.",
+      },
+    ],
+    link: "/service-details/google-ads",
+    imageLink: "/img/services/google-ads.png",
   },
 };

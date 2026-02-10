@@ -43,23 +43,38 @@ const webDevComps = [
 ];
 
 const mobileDevComps = [
-  { title: "Android Development", href: "/android-development" },
-  { title: "iOS Development", href: "/ios-development" },
+  {
+    title: "Android Development",
+    href: "/service-details/android-development",
+  },
+  { title: "iOS Development", href: "/service-details/ios-development" },
 ];
 
 const graphicsComps = [
-  { title: "Logo Designing", href: "/logo-designing" },
-  { title: "Banners Designing", href: "/banners-designing" },
-  { title: "Letterhead Designing", href: "/letterhead-designing" },
-  { title: "Visiting Card Designing", href: "/visiting-card-designing" },
+  { title: "Logo Designing", href: "/service-details/logo-designing" },
+  { title: "Banners Designing", href: "/service-details/banners-designing" },
+  {
+    title: "Letterhead Designing",
+    href: "/service-details/letterhead-designing",
+  },
+  {
+    title: "Visiting Card Designing",
+    href: "/service-details/visiting-card-designing",
+  },
 ];
 
 const brandingMarketingComps = [
   { title: "SEO", href: "/seo" },
-  { title: "Facebook Marketing", href: "/facebook-marketing" },
-  { title: "Instagram Marketing", href: "/instagram-marketing" },
-  { title: "Google Business Profile", href: "/google-business-profile" },
-  { title: "Google Ads", href: "/google-ads" },
+  { title: "Facebook Marketing", href: "/service-details/facebook-marketing" },
+  {
+    title: "Instagram Marketing",
+    href: "/service-details/instagram-marketing",
+  },
+  {
+    title: "Google Business Profile",
+    href: "/service-details/google-business-profile",
+  },
+  { title: "Google Ads", href: "/service-details/google-ads" },
 ];
 
 const DropdownList = ({
