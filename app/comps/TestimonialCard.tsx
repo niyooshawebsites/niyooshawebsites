@@ -27,11 +27,11 @@ const TestimonialCard = ({
 
         <div>
           <p className="font-semibold text-orange-500">{name}</p>
-          <p className="text-sm text-muted-foreground text-gray-100">{role}</p>
+          <p className="text-sm text-muted-foreground text-gray-400">{role}</p>
         </div>
       </CardHeader>
       <CardContent>
-        <p className="text-gray-100">{quote}</p>
+        <p className="text-gray-400">{quote}</p>
       </CardContent>
     </Card>
   );

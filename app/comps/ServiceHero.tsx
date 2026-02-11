@@ -19,7 +19,7 @@ interface ServiceHeroProps {
 
 export default function ServiceHero({ service }: ServiceHeroProps) {
   return (
-    <section className="container mx-auto py-10 grid grid-cols-1 gap-10 text-gray-100">
+    <section className="container mx-auto py-10 grid grid-cols-1 gap-10 text-gray-400">
       <article>
         <h1 className="text-4xl font-bold mb-4 text-orange-500">
           {service.title}

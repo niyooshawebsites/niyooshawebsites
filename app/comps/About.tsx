@@ -3,10 +3,10 @@ import React from "react";
 const About = () => {
   return (
     <section className="container mx-auto my-10">
-      <h1 className="text-3xl text-gray-100">
+      <h1 className="text-3xl text-gray-400">
         Best <span className="text-blue-500">Web Design Company</span> In Delhi
       </h1>
-      <p className="mt-5 text-gray-100">
+      <p className="mt-5 text-gray-400">
         Welcome to Niyoosha Websites, where innovation meets optimization! As a
         premier website and SEO company, we are dedicated to transforming your
         digital presence and driving unparalleled success for your business. In
@@ -15,7 +15,7 @@ const About = () => {
         robust SEO strategy to ensure your brand stands out amidst the
         competition.
       </p>
-      <p className="mt-5 text-gray-100">
+      <p className="mt-5 text-gray-400">
         At Niyoosha Websites, we pride ourselves on being at the forefront of
         technological advancements, leveraging cutting-edge tools and
         methodologies to craft websites that not only captivate audiences but

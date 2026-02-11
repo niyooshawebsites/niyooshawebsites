@@ -1,15 +1,16 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const WhyUs = () => {
   return (
     <section className="container mx-auto my-10">
       <article className="flex flex-col md:flex-row mb-5 gap-y-5">
         <div className="w-full md:w-6/12">
-          <h1 className="text-3xl text-gray-100">
+          <h1 className="text-3xl text-gray-400">
             Best <span className="text-orange-500">Web Design Company</span> In
             Delhi
           </h1>
-          <p className="mt-5 text-gray-100">
+          <p className="mt-5 text-gray-400">
             Welcome to Niyoosha Websites, where innovation meets optimization!
             As a premier website and SEO company, we are dedicated to
             transforming your digital presence and driving unparalleled success
@@ -19,7 +20,7 @@ const WhyUs = () => {
             your brand stands out amidst the competition.
           </p>
 
-          <p className="mt-5 text-gray-100">
+          <p className="mt-5 text-gray-400">
             At Niyoosha Websites, we pride ourselves on being at the forefront
             of technological advancements, leveraging cutting-edge tools and
             methodologies to craft websites that not only captivate audiences
@@ -28,14 +29,16 @@ const WhyUs = () => {
             deliver solutions tailored to meet your unique business goals.
           </p>
 
-          <Button className="mt-10 border border-orange-500 text-orange-500 shadow-lg shadow-orange-500/50 cursor-pointer hover:translate-y-0.5 hover:bg-orange-500 hover:text-gray-100">
-            More Info
-          </Button>
+          <Link href="/about">
+            <Button className="mt-10 border border-orange-500 text-orange-500 shadow-lg shadow-orange-500/50 cursor-pointer hover:translate-y-0.5 hover:bg-orange-500 hover:text-gray-950">
+              More Info
+            </Button>
+          </Link>
         </div>
         <div className="w-full md:w-6/12 h-[500px] bg-[url('/img/common.jpg')] bg-cover rounded-2xl"></div>
       </article>
       <article className="grid md:grid-cols-4 gap-6">
-        <div className="bg-gray-950 border border-gray-950 text-gray-100 p-5 rounded-xl">
+        <div className="bg-gray-950 border border-gray-950 text-gray-400 p-5 rounded-xl">
           <h1 className="text-2xl mb-2 text-orange-500">
             Customized Web Solutions
           </h1>
@@ -46,7 +49,7 @@ const WhyUs = () => {
           </p>
         </div>
 
-        <div className="bg-gray-950 border border-gray-950 text-gray-100 p-5 rounded-xl">
+        <div className="bg-gray-950 border border-gray-950 text-gray-400 p-5 rounded-xl">
           <h1 className="text-2xl mb-2 text-orange-500">
             Data-Driven Approach
           </h1>
@@ -57,7 +60,7 @@ const WhyUs = () => {
           </p>
         </div>
 
-        <div className="bg-gray-950 border border-gray-950 text-gray-100 p-5 rounded-xl">
+        <div className="bg-gray-950 border border-gray-950 text-gray-400 p-5 rounded-xl">
           <h1 className="text-2xl mb-2 text-orange-500">
             Transparent Communication
           </h1>
@@ -69,7 +72,7 @@ const WhyUs = () => {
           </p>
         </div>
 
-        <div className="bg-gray-950 border border-gray-950 text-gray-100 p-5 rounded-xl">
+        <div className="bg-gray-950 border border-gray-950 text-gray-400 p-5 rounded-xl">
           <h1 className="text-2xl mb-2 text-orange-500">
             Results-Oriented Focus
           </h1>

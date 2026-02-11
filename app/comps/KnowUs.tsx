@@ -26,7 +26,7 @@ const knowUsItems = [
 const KnowUs = () => {
   return (
     <section className="flex flex-col gap-y-10 my-10">
-      <article className=" text-gray-100">
+      <article className=" text-gray-400">
         <h1 className="text-3xl mb-5">
           Know Us, <span className="text-orange-500">To Move With Us</span>
         </h1>

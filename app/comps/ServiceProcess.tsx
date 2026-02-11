@@ -23,7 +23,7 @@ const processSteps = [
 
 const ServiceProcess = () => {
   return (
-    <section className="py-20 text-gray-100">
+    <section className="my-10 text-gray-400">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-3xl font-bold text-center mb-14">
           Our Development Process
@@ -41,7 +41,7 @@ const ServiceProcess = () => {
               <h3 className="mt-4 font-semibold text-xl text-orange-500">
                 {step.title}
               </h3>
-              <p className="text-gray-100 mt-2">{step.desc}</p>
+              <p className="text-gray-400 mt-2">{step.desc}</p>
             </div>
           ))}
         </div>

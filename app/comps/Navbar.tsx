@@ -124,7 +124,7 @@ const DropdownList = ({
 
 const Navbar = () => {
   return (
-    <NavigationMenu className="container mx-auto py-2 text-gray-100">
+    <NavigationMenu className="container mx-auto py-2 text-gray-400">
       <NavigationMenuList className=" flex gap-6">
         <NavigationMenuItem className="relative rounded-md">
           <NavigationMenuLink
@@ -202,7 +202,7 @@ const Navbar = () => {
           <NavigationMenuLink asChild>
             <Link
               href="tel:+919205504115"
-              className="bg-orange-500 shadow-lg shadow-orange-500/50 text-gray-100 hover:bg-orange-600"
+              className="bg-orange-500 shadow-lg shadow-orange-500/50 text-gray-400 hover:bg-orange-600"
             >
               +91 9205504115
             </Link>

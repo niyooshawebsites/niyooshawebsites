@@ -12,12 +12,9 @@ interface Benefit {
 
 export default function ServiceBenefits({ service }: ServiceProps) {
   return (
-    <section className="container mx-auto py-20 text-gray-100">
+    <section className="container mx-auto py-20 text-gray-400">
       <h2 className="text-3xl font-bold text-center mb-10">
-        Why Choose{" "}
-        <span className="text-orange-500">
-          {service.title.split(" ")[0].toUpperCase()}
-        </span>
+        Benefits of <span className="text-orange-500">{service.title}</span>
       </h2>
 
       <div className="grid md:grid-cols-3 gap-6">

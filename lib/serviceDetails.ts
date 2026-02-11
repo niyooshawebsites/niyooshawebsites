@@ -1099,7 +1099,7 @@ export const services = {
     link: "/service-details/google-ads",
     imageLink: "/img/services/google-ads.png",
   },
-  brandPromotionalVideos: {
+  "brand-promotional-videos": {
     title: "Brand Promotional Videos",
     subtitle:
       "Engaging & Impactful Promotional Videos to Elevate Your Brand Presence",

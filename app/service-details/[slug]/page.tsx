@@ -19,8 +19,6 @@ const ServicePage = async ({
       <ServiceHero service={service} />
       <ServiceFeatures service={service} />
       <ServiceBenefits service={service} />
-      <ServiceProcess />
-      <ServiceCTA />
     </main>
   );
 };
