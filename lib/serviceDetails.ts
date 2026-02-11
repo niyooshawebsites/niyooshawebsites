@@ -1,5 +1,5 @@
 export const services = {
-  react: {
+  "react-development": {
     title: "React Development",
     subtitle:
       "Expert React.js Development Services to Build Dynamic Web Applications",
@@ -46,11 +46,10 @@ export const services = {
         desc: "Strong community support means developers are never building alone. A massive global community contributes libraries, tools, tutorials, and best practices that accelerate learning and problem solving. Frequent updates keep the framework modern, secure, and aligned with industry standards. Long-term backing from major companies and open-source contributors ensures stability, rich documentation, and confidence that skills and projects built today will remain relevant in the future for developers across startups, enterprises, and evolving technology ecosystems worldwide today.",
       },
     ],
-    link: "/service-details/react",
+    link: "/service-details/react-development",
     imageLink: "/img/services/react.png",
   },
-
-  tailwind: {
+  "tailwind-development": {
     title: "Tailwind CSS Development",
     subtitle:
       "Utility-First Tailwind CSS Development for Modern, Responsive UI Design",
@@ -97,11 +96,10 @@ export const services = {
         desc: "By relying on utility classes instead of large CSS files, Tailwind reduces style bloat and naming conflicts. The codebase remains predictable and easier to maintain over time. Unused styles can be purged automatically in production, resulting in smaller CSS bundles and improved load times. This clean approach enhances long-term maintainability, especially for complex applications with frequent UI changes.",
       },
     ],
-    link: "/service-details/tailwind",
+    link: "/service-details/tailwind-development",
     imageLink: "/img/services/tailwind.png",
   },
-
-  bootstrap: {
+  "bootstrap-development": {
     title: "Bootstrap Development",
     subtitle:
       "Responsive Bootstrap Development Services for Fast and Reliable Web Interfaces",
@@ -148,10 +146,10 @@ export const services = {
         desc: "With its structured classes and documentation, Bootstrap makes code easier to understand, update, and scale. New features or layout changes can be implemented without breaking existing designs. Its wide adoption and long-term support ensure stability, security updates, and compatibility with modern frameworks, making it a dependable choice for businesses building sustainable web applications.",
       },
     ],
-    link: "/service-details/bootstrap",
+    link: "/service-details/bootstrap-development",
     imageLink: "/img/services/bootstrap.png",
   },
-  nodejs: {
+  "node-js-development": {
     title: "Node.js Development",
     subtitle:
       "Scalable Node.js Development Services for High-Performance Backend Solutions",
@@ -198,10 +196,10 @@ export const services = {
         desc: "With access to a massive ecosystem of open-source packages through npm, Node.js accelerates development and reduces time-to-market. Continuous community contributions, frequent updates, and enterprise adoption ensure long-term stability, security, and compatibility with modern development practices and cloud-native environments.",
       },
     ],
-    link: "/service-details/nodejs",
+    link: "/service-details/node-js-development",
     imageLink: "/img/services/nodejs.png",
   },
-  mern: {
+  "mern-stack-development": {
     title: "MERN Stack Development",
     subtitle:
       "End-to-End MERN Stack Development Services for Scalable Web Applications",
@@ -248,10 +246,10 @@ export const services = {
         desc: "With React’s component-based UI, Express.js’s lightweight backend framework, and MongoDB’s schema flexibility, MERN enables rapid prototyping and faster time-to-market. The stack is cloud-friendly, API-driven, and well-suited for modern architectures, ensuring your application remains adaptable to future technology advancements.",
       },
     ],
-    link: "/service-details/mern",
+    link: "/service-details/mern-stack-development",
     imageLink: "/img/services/mern.png",
   },
-  nextjs: {
+  "next-js-development": {
     title: "Next.js Development",
     subtitle:
       "High-Performance Next.js Development Services for SEO-Ready Web Applications",
@@ -298,11 +296,10 @@ export const services = {
         desc: "Next.js offers a production-ready architecture with built-in routing, API handling, security enhancements, and deployment optimizations. It scales seamlessly from small websites to enterprise-grade applications. Backed by a strong ecosystem and continuous updates, Next.js ensures long-term reliability and adaptability for evolving business needs.",
       },
     ],
-    link: "/service-details/nextjs",
+    link: "/service-details/next-js-development",
     imageLink: "/img/services/nextjs.png",
   },
-
-  django: {
+  "django-development": {
     title: "Django Development",
     subtitle:
       "Secure and Scalable Django Development Services for Powerful Web Applications",
@@ -349,11 +346,10 @@ export const services = {
         desc: "Django is well-suited for applications that handle large datasets and complex business logic. With its modular design and compatibility with modern deployment environments, Django applications can scale horizontally as traffic and data grow. This makes it ideal for analytics platforms, enterprise systems, and high-traffic web applications.",
       },
     ],
-    link: "/service-details/django",
+    link: "/service-details/django-development",
     imageLink: "/img/services/django.png",
   },
-
-  laravel: {
+  "laravel-development": {
     title: "Laravel Development",
     subtitle:
       "Robust Laravel Development Services for Scalable and Secure Web Applications",
@@ -400,11 +396,10 @@ export const services = {
         desc: "Laravel’s extensive ecosystem, including Eloquent ORM, Blade templating, and Artisan CLI, significantly speeds up development. Developers can focus on business logic rather than repetitive tasks. As applications grow, Laravel supports scalable architectures, caching, and queue systems, making it suitable for both startups and large-scale enterprise solutions.",
       },
     ],
-    link: "/service-details/laravel",
+    link: "/service-details/laravel-development",
     imageLink: "/img/services/laravel.png",
   },
-
-  wordpress: {
+  "wordpress-development": {
     title: "WordPress Development",
     subtitle:
       "Custom WordPress Development Services for Scalable and SEO-Friendly Websites",
@@ -451,10 +446,10 @@ export const services = {
         desc: "From small business websites to enterprise-level platforms, WordPress scales effortlessly with your needs. Its vast ecosystem of plugins and integrations reduces development cost while maintaining flexibility. As your business grows, WordPress can be extended with custom features, eCommerce capabilities, and third-party integrations without requiring a complete rebuild.",
       },
     ],
-    link: "/service-details/wordpress",
+    link: "/service-details/wordpress-development",
     imageLink: "/img/services/wordpress.png",
   },
-  woocommerce: {
+  "woocommerce-development": {
     title: "WooCommerce Development",
     subtitle:
       "Custom WooCommerce Development Services for Scalable eCommerce Solutions",
@@ -501,10 +496,10 @@ export const services = {
         desc: "From small online shops to large product catalogs, WooCommerce scales with your business needs. Its extensive plugin ecosystem reduces development costs while allowing feature-rich customization. As order volume and traffic grow, WooCommerce can be optimized and extended to support high-performance, secure, and enterprise-level eCommerce operations.",
       },
     ],
-    link: "/service-details/woocommerce",
+    link: "/service-details/woocommerce-development",
     imageLink: "/img/services/woocommerce.png",
   },
-  shopify: {
+  "shopify-development": {
     title: "Shopify Development",
     subtitle:
       "Professional Shopify Development Services for High-Converting Online Stores",
@@ -551,10 +546,10 @@ export const services = {
         desc: "Shopify is built to scale as your business grows, supporting high traffic, large product catalogs, and global sales. With optimized checkout flows, mobile-first themes, and built-in analytics, Shopify helps improve conversions and customer experience. Its extensive app ecosystem ensures flexibility while maintaining performance and reliability.",
       },
     ],
-    link: "/service-details/shopify",
+    link: "/service-details/shopify-development",
     imageLink: "/img/services/shopify.png",
   },
-  android: {
+  "android-development": {
     title: "Android App Development",
     subtitle:
       "Expert Android App Development Services to Build Scalable & High-Performance Mobile Applications",
@@ -601,10 +596,10 @@ export const services = {
         desc: "Android offers unmatched flexibility and customization compared to other mobile platforms. Developers can deeply customize UI components, system interactions, hardware access, and third-party integrations. This flexibility allows businesses to build unique app experiences aligned with branding and functional needs. Continuous updates, strong developer tools, and open ecosystem support ensure Android apps remain adaptable, future-ready, and aligned with evolving business and technology requirements.",
       },
     ],
-    link: "/service-details/android",
-    imageLink: "/img/services/android.png",
+    link: "/service-details/android-development",
+    imageLink: "/img/services/android-development.png",
   },
-  ios: {
+  "ios-development": {
     title: "iOS App Development",
     subtitle:
       "Expert iOS App Development Services to Build Secure & High-Performance Apple Applications",
@@ -651,10 +646,10 @@ export const services = {
         desc: "The Apple ecosystem provides powerful development tools, consistent hardware standards, and deep integration across devices like iPhone, iPad, Apple Watch, and Mac. This ecosystem enables high-performance apps with smooth animations and efficient resource usage. Continuous platform updates and long-term device support ensure iOS applications remain future-ready, scalable, and aligned with evolving business and technology needs.",
       },
     ],
-    link: "/service-details/ios",
-    imageLink: "/img/services/ios.png",
+    link: "/service-details/ios-development",
+    imageLink: "/img/services/ios-development.png",
   },
-  logoDesigning: {
+  "logo-designing": {
     title: "Logo Designing",
     subtitle:
       "Professional Logo Design Services to Build a Strong & Memorable Brand Identity",
@@ -704,8 +699,7 @@ export const services = {
     link: "/service-details/logo-designing",
     imageLink: "/img/services/logo-designing.png",
   },
-
-  brandingDesign: {
+  "banner-designing": {
     title: "Banner, Letterhead & Visiting Card Designing",
     subtitle:
       "Professional Branding Design Services to Create a Consistent & Impactful Business Identity",
@@ -752,10 +746,10 @@ export const services = {
         desc: "Banners enhance visibility in promotions and campaigns, while visiting cards support personal connections and networking opportunities. Professionally designed branding materials help communicate your message clearly, make your brand memorable, and support long-term marketing and relationship-building efforts, ensuring your business stands out in competitive environments.",
       },
     ],
-    link: "/service-details/branding-design",
-    imageLink: "/img/services/branding-design.png",
+    link: "/service-details/banner-designing",
+    imageLink: "/img/services/branding-designing.png",
   },
-  letterheadDesigning: {
+  "letterhead-designing": {
     title: "Letterhead Designing",
     subtitle:
       "Professional Letterhead Design Services for Official & Brand-Aligned Business Communication",
@@ -805,7 +799,7 @@ export const services = {
     link: "/service-details/letterhead-designing",
     imageLink: "/img/services/letterhead-designing.png",
   },
-  visitingCardDesigning: {
+  "visiting-card-designing": {
     title: "Visiting Card Designing",
     subtitle:
       "Creative Visiting Card Design Services to Make a Lasting First Impression",
@@ -905,8 +899,7 @@ export const services = {
     link: "/service-details/seo",
     imageLink: "/img/services/seo.png",
   },
-
-  facebookMarketing: {
+  "facebook-marketing": {
     title: "Facebook Marketing",
     subtitle:
       "Targeted Facebook Marketing Services to Boost Brand Awareness & Conversions",
@@ -954,10 +947,9 @@ export const services = {
       },
     ],
     link: "/service-details/facebook-marketing",
-    imageLink: "/img/services/facebook.png",
+    imageLink: "/img/services/facebook-marketing.png",
   },
-
-  instagramMarketing: {
+  "instagram-marketing": {
     title: "Instagram Marketing",
     subtitle:
       "Creative Instagram Marketing Services to Grow Engagement & Brand Loyalty",
@@ -1005,10 +997,9 @@ export const services = {
       },
     ],
     link: "/service-details/instagram-marketing",
-    imageLink: "/img/services/instagram.png",
+    imageLink: "/img/services/instagram-marketing.png",
   },
-
-  googleBusinessProfile: {
+  "google-business-profile": {
     title: "Google Business Profile Optimization",
     subtitle:
       "Optimize Your Google Business Profile to Attract Local Customers",
@@ -1056,10 +1047,9 @@ export const services = {
       },
     ],
     link: "/service-details/google-business-profile",
-    imageLink: "/img/services/google-business.png",
+    imageLink: "/img/services/google-business-profile.png",
   },
-
-  googleAds: {
+  "google-ads": {
     title: "Google Ads Management",
     subtitle:
       "High-Performance Google Ads Services to Drive Instant Traffic & Leads",
@@ -1108,5 +1098,155 @@ export const services = {
     ],
     link: "/service-details/google-ads",
     imageLink: "/img/services/google-ads.png",
+  },
+  brandPromotionalVideos: {
+    title: "Brand Promotional Videos",
+    subtitle:
+      "Engaging & Impactful Promotional Videos to Elevate Your Brand Presence",
+    description:
+      "At NIYOOSHA WEBSITES, we create high-quality brand promotional videos that capture attention, communicate your message clearly, and leave a lasting impression. Whether you need product showcases, corporate introductions, social media ads, or brand storytelling videos, we craft visually compelling content that strengthens brand identity and boosts audience engagement. Our videos are designed to convert viewers into customers and help businesses stand out in today’s competitive digital landscape.",
+    icon: "video",
+    features: [
+      {
+        title: "Corporate Brand Videos",
+        desc: "Professional videos that introduce your company, values, mission, and services to build credibility and trust.",
+      },
+      {
+        title: "Product Promotion Videos",
+        desc: "Creative product-focused videos that highlight features, benefits, and unique selling points effectively.",
+      },
+      {
+        title: "Social Media Promo Videos",
+        desc: "Short, engaging, and optimized videos designed specifically for platforms like Instagram, Facebook, and YouTube.",
+      },
+      {
+        title: "Scriptwriting & Storyboarding",
+        desc: "Strategic planning with compelling scripts and storyboards to ensure clear and impactful messaging.",
+      },
+      {
+        title: "Motion Graphics & Animation",
+        desc: "Eye-catching animations and motion graphics to make your brand message more dynamic and engaging.",
+      },
+      {
+        title: "High-Quality Editing & Production",
+        desc: "Professional video editing, sound design, transitions, and visual enhancements for a polished final output.",
+      },
+    ],
+    benefits: [
+      {
+        title: "Stronger Brand Awareness",
+        desc: "Promotional videos increase brand visibility and recognition by delivering your message in a visually compelling way.",
+      },
+      {
+        title: "Higher Engagement & Conversions",
+        desc: "Video content captures attention quickly and drives higher engagement rates, leading to improved conversions and sales.",
+      },
+      {
+        title: "Professional Brand Image",
+        desc: "High-quality promotional videos position your brand as professional, trustworthy, and forward-thinking in the market.",
+      },
+    ],
+    link: "/service-details/brand-promotional-videos",
+    imageLink: "/img/services/brand-promotional-videos.png",
+  },
+  "custom-ecommerce-development": {
+    title: "Custom eCommerce Development",
+    subtitle:
+      "Build Powerful, Scalable & Secure Online Stores with Laravel, Next.js or MERN Stack",
+    description:
+      "At NIYOOSHA WEBSITES, we specialize in developing custom eCommerce solutions tailored to your unique business needs. Whether you choose Laravel, Next.js, or the MERN stack, we build high-performance, scalable, and secure online stores that deliver seamless shopping experiences. From custom solutions and responsive design to optimized performance and modern UI/UX, our eCommerce platforms are designed to drive conversions and long-term business growth.",
+    icon: "shopping-cart",
+    features: [
+      {
+        title: "Laravel eCommerce Development",
+        desc: "Robust and secure custom online stores built using Laravel with advanced features and scalable architecture.",
+      },
+      {
+        title: "Next.js eCommerce Solutions",
+        desc: "Fast, SEO-friendly, and high-performance eCommerce websites using Next.js for better user experience and search visibility.",
+      },
+      {
+        title: "MERN Stack Development",
+        desc: "Modern and dynamic eCommerce applications using MongoDB, Express, React, and Node.js for real-time performance.",
+      },
+      {
+        title: "Custom Solutions",
+        desc: "Tailor-made eCommerce platforms designed specifically to match your business model and operational needs.",
+      },
+      {
+        title: "Responsive Design",
+        desc: "Fully responsive and mobile-friendly designs to ensure seamless shopping experiences across all devices.",
+      },
+      {
+        title: "Secure & Scalable Architecture",
+        desc: "Develop stable, secure, and scalable eCommerce platforms capable of handling growing traffic and transactions.",
+      },
+    ],
+    benefits: [
+      {
+        title: "Enhanced User Experience",
+        desc: "Our custom-built eCommerce stores provide smooth navigation, fast loading speeds, and intuitive interfaces that enhance customer satisfaction and encourage repeat purchases.",
+      },
+      {
+        title: "Higher Conversion Rates",
+        desc: "Optimized checkout processes, responsive layouts, and performance-driven development help increase engagement and boost overall sales conversions.",
+      },
+      {
+        title: "Long-Term Business Scalability",
+        desc: "We build scalable eCommerce solutions that grow with your business, allowing easy expansion of products, features, and integrations over time.",
+      },
+    ],
+    link: "/service-details/custom-ecommerce-development",
+    imageLink: "/img/services/custom-ecommerce.png",
+  },
+  "custom-web-app-development": {
+    title: "Custom Web App Development",
+    subtitle:
+      "Develop Tailored, Secure & Scalable Web Applications for Your Business",
+    description:
+      "At NIYOOSHA WEBSITES, we design and develop powerful custom web applications tailored to your business goals. From HRMS and Ticket Management Systems to POS, Inventory, Patient Management, and SaaS platforms, we build secure, scalable, and performance-driven solutions. Our custom web apps are designed to streamline operations, improve productivity, and support long-term digital growth with modern technologies and intuitive user experiences.",
+    icon: "web-app",
+    features: [
+      {
+        title: "HRMS Development",
+        desc: "Custom Human Resource Management Systems to streamline employee records, payroll, attendance, and performance tracking.",
+      },
+      {
+        title: "Ticket Management System (TMS)",
+        desc: "Efficient ticketing solutions to manage customer support, internal queries, and service requests in an organized manner.",
+      },
+      {
+        title: "POS & Billing Systems",
+        desc: "Advanced Point of Sale and billing systems designed for retail, restaurants, and service-based businesses.",
+      },
+      {
+        title: "Inventory Management System",
+        desc: "Smart inventory tracking solutions to manage stock levels, suppliers, orders, and real-time reporting.",
+      },
+      {
+        title: "Patient Management System",
+        desc: "Secure healthcare management solutions to handle patient records, appointments, billing, and reports efficiently.",
+      },
+      {
+        title: "SaaS Application Development",
+        desc: "Scalable Software-as-a-Service platforms with subscription models, multi-user access, and cloud-based architecture.",
+      },
+    ],
+    benefits: [
+      {
+        title: "Streamlined Business Operations",
+        desc: "Custom web applications automate repetitive tasks and centralize data, helping businesses improve workflow efficiency and productivity.",
+      },
+      {
+        title: "Secure & Scalable Architecture",
+        desc: "We build secure web applications with scalable infrastructure, ensuring data protection and smooth performance as your business grows.",
+      },
+      {
+        title: "Improved Decision Making",
+        desc: "Real-time dashboards, analytics, and reporting tools help businesses make data-driven decisions with accuracy and confidence.",
+      },
+    ],
+    link: "/service-details/custom-web-app-development",
+    imageLink: "/img/services/custom-web-apps.png",
   },
 };

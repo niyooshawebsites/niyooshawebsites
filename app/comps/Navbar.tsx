@@ -11,34 +11,43 @@ import {
 import Link from "next/link";
 
 const webDevComps = [
-  { title: "React Development", href: "/service-details/react" },
-  { title: "Tailwind CSS Development", href: "/service-details/tailwind" },
-  { title: "Bootstrap Development", href: "/service-details/bootstrap" },
-  { title: "Node Js Development", href: "/service-details/nodejs" },
+  { title: "React Development", href: "/service-details/react-development" },
+  {
+    title: "Tailwind CSS Development",
+    href: "/service-details/tailwind-development",
+  },
+  {
+    title: "Bootstrap Development",
+    href: "/service-details/bootstrap-development",
+  },
+  {
+    title: "Node Js Development",
+    href: "/service-details/node-js-development",
+  },
   {
     title: "MERN Stack Development",
-    href: "/service-details/mern-stack",
+    href: "/service-details/mern-stack-development",
   },
   {
     title: "NEXT Js Development",
-    href: "/service-details/nextjs",
+    href: "/service-details/next-js-development",
   },
-  { title: "Django Development", href: "/service-details/django" },
+  { title: "Django Development", href: "/service-details/django-development" },
   {
     title: "Laravel Development",
-    href: "/service-details/laravel",
+    href: "/service-details/laravel-development",
   },
   {
     title: "Wordpress Development",
-    href: "/service-details/wordpress",
+    href: "/service-details/wordpress-development",
   },
   {
     title: "Woocommerce Development",
-    href: "/service-details/woocommerce",
+    href: "/service-details/woocommerce-development",
   },
   {
     title: "Shopify Development",
-    href: "/service-details/shopify",
+    href: "/service-details/shopify-development",
   },
 ];
 
@@ -50,9 +59,20 @@ const mobileDevComps = [
   { title: "iOS Development", href: "/service-details/ios-development" },
 ];
 
+const customDevComps = [
+  {
+    title: "Custom Ecommerce Development",
+    href: "/service-details/custom-ecommerce-development",
+  },
+  {
+    title: "Custom Web App Development",
+    href: "/service-details/custom-web-app-development",
+  },
+];
+
 const graphicsComps = [
   { title: "Logo Designing", href: "/service-details/logo-designing" },
-  { title: "Banners Designing", href: "/service-details/banners-designing" },
+  { title: "Banners Designing", href: "/service-details/banner-designing" },
   {
     title: "Letterhead Designing",
     href: "/service-details/letterhead-designing",
@@ -75,6 +95,10 @@ const brandingMarketingComps = [
     href: "/service-details/google-business-profile",
   },
   { title: "Google Ads", href: "/service-details/google-ads" },
+  {
+    title: "Brand Promotional Videos",
+    href: "/service-details/brand-promotional-videos",
+  },
 ];
 
 const DropdownList = ({
@@ -126,6 +150,15 @@ const Navbar = () => {
           </NavigationMenuTrigger>
           <NavigationMenuContent className="bg-gray-900 ">
             <DropdownList items={mobileDevComps} />
+          </NavigationMenuContent>
+        </NavigationMenuItem>
+
+        <NavigationMenuItem className="hover:cursor-pointer rounded-md">
+          <NavigationMenuTrigger className="hover:text-orange-500 hover:cursor-pointer">
+            Custom Development
+          </NavigationMenuTrigger>
+          <NavigationMenuContent className="bg-gray-900 ">
+            <DropdownList items={customDevComps} />
           </NavigationMenuContent>
         </NavigationMenuItem>
 
