@@ -109,7 +109,10 @@ const DropdownList = ({
   <ul className="grid gap-2 p-2 w-[320px]">
     {items.map((item) => (
       <li key={item.href}>
-        <NavigationMenuLink asChild className="border-0 hover:bg-orange-500">
+        <NavigationMenuLink
+          asChild
+          className="border-0 hover:bg-orange-500 hover:text-gray-950"
+        >
           <Link
             href={item.href}
             className="block rounded-md px-3 py-2 text-sm hover:bg-accent"
@@ -202,7 +205,7 @@ const Navbar = () => {
           <NavigationMenuLink asChild>
             <Link
               href="tel:+919205504115"
-              className="bg-orange-500 shadow-lg shadow-orange-500/50 text-gray-400 hover:bg-orange-600"
+              className="bg-orange-500 shadow-lg shadow-orange-500/50 text-gray-950 hover:bg-orange-600"
             >
               +91 9205504115
             </Link>

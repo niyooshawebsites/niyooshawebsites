@@ -1,22 +1,17 @@
 "use client";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
 import { motion } from "framer-motion";
 import {
-  Rocket,
-  Eye,
   Globe,
   Code,
   Smartphone,
   ShoppingCart,
   Megaphone,
   Palette,
-  ShieldCheck,
 } from "lucide-react";
 import Link from "next/link";
 import CountUp from "react-countup";
-import Image from "next/image";
 
 const AboutPage = () => {
   return (
@@ -57,7 +52,7 @@ const AboutPage = () => {
           </p>
 
           <Link href="/contact">
-            <Button className="border border-orange-500 text-orange-500 shadow-lg shadow-orange-500/50 cursor-pointer hover:translate-y-0.5 hover:bg-orange-500 hover:text-gray-400">
+            <Button className="border border-orange-500 text-orange-500 shadow-lg shadow-orange-500/50 cursor-pointer hover:translate-y-0.5 hover:bg-orange-600 hover:text-gray-950">
               Contact us
             </Button>
           </Link>
@@ -121,7 +116,7 @@ const AboutPage = () => {
             </p>
 
             <Link href="/contact">
-              <Button className="bg-orange-500 hover:bg-orange-600 text-gray-400 hover:cursor-pointer">
+              <Button className="bg-orange-500 hover:bg-orange-600 text-gray-100 hover:text-gray-950 hover:cursor-pointer">
                 Get in Touch
               </Button>
             </Link>
