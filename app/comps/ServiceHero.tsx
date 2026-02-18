@@ -48,7 +48,7 @@ export default function ServiceHero({ service }: ServiceHeroProps) {
             <Button
               size="lg"
               variant="secondary"
-              className="bg-orange-500 shadow-lg shadow-orange-500/50 cursor-pointer hover:translate-y-0.5"
+              className="bg-orange-500 text-gray-950 shadow-lg shadow-orange-500/50 cursor-pointer hover:translate-y-0.5"
             >
               Get a Free Consultation
             </Button>

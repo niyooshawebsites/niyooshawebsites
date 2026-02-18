@@ -9,6 +9,7 @@ import {
   NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
 import Link from "next/link";
+import { FaPhoneVolume } from "react-icons/fa6";
 
 const webDevComps = [
   { title: "React Development", href: "/service-details/react-development" },
@@ -106,7 +107,7 @@ const DropdownList = ({
 }: {
   items: { title: string; href: string }[];
 }) => (
-  <ul className="grid gap-2 p-2 w-[320px] z-100">
+  <ul className="grid gap-2 p-2 w-[320px] ">
     {items.map((item) => (
       <li key={item.href}>
         <NavigationMenuLink
@@ -127,7 +128,7 @@ const DropdownList = ({
 
 const Navbar = () => {
   return (
-    <NavigationMenu className="container mx-auto py-2 text-gray-400">
+    <NavigationMenu className="container mx-auto py-2 text-gray-400 z-1000">
       <NavigationMenuList className=" flex gap-6">
         <NavigationMenuItem className="relative rounded-md">
           <NavigationMenuLink
@@ -207,7 +208,10 @@ const Navbar = () => {
               href="tel:+919205504115"
               className="bg-orange-500 shadow-lg shadow-orange-500/50 text-gray-950 hover:bg-orange-600"
             >
-              +91 9205504115
+              <div className="flex items-center gap-2">
+                <FaPhoneVolume />
+                +91 9205504115
+              </div>
             </Link>
           </NavigationMenuLink>
         </NavigationMenuItem>

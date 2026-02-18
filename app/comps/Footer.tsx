@@ -41,7 +41,7 @@ const Footer = () => {
           <Link href="/about">
             <Button
               variant="secondary"
-              className="bg-orange-500 hover:bg-orange-600 shadow-lg shadow-orange-500/50 rounded-md text-gray-100 cursor-pointer hover:text-gray-950"
+              className="bg-orange-500 hover:bg-orange-600 shadow-lg shadow-orange-500/50 rounded-md text-gray-950 cursor-pointer"
             >
               More Info
             </Button>
@@ -124,7 +124,7 @@ const Footer = () => {
         </div>
       </section>
       <section>
-        <p className="text-center bg-orange-500 text-gray-400">
+        <p className="text-center bg-orange-500 text-gray-950 py-2">
           All rights reserved. Copyright &copy; 2026
         </p>
       </section>

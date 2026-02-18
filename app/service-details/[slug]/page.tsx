@@ -1,9 +1,7 @@
 import { services } from "@/lib/serviceDetails";
 import ServiceHero from "@/app/comps/ServiceHero";
-import ServiceProcess from "@/app/comps/ServiceProcess";
 import ServiceFeatures from "@/app/comps/ServiceFeatures";
 import ServiceBenefits from "@/app/comps/ServiceBenefits";
-import ServiceCTA from "@/app/comps/ServiceCTA";
 
 const ServicePage = async ({
   params,

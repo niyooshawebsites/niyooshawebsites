@@ -17,7 +17,7 @@ const ServiceFeatures = ({ service }: ServiceFeaturesProps) => {
           {service.features.map((feature, index) => (
             <div
               key={index}
-              className="flex items-center gap-3 bg-orange-500 text-gray-400 p-5 rounded-xl hover:translate-y-0.5 hover:cursor-pointer"
+              className="flex items-center gap-3 bg-orange-500 text-gray-950 p-5 rounded-xl hover:translate-y-0.5 hover:cursor-pointer"
             >
               <CheckCircle className="text-primary w-6 h-6" />
               <span className="font-medium">{feature.title}</span>
