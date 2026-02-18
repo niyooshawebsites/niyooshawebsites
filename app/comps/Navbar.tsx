@@ -106,7 +106,7 @@ const DropdownList = ({
 }: {
   items: { title: string; href: string }[];
 }) => (
-  <ul className="grid gap-2 p-2 w-[320px]">
+  <ul className="grid gap-2 p-2 w-[320px] z-100">
     {items.map((item) => (
       <li key={item.href}>
         <NavigationMenuLink

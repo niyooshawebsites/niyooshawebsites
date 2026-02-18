@@ -60,9 +60,37 @@ const Contact = () => {
   };
 
   return (
-    <section className="container grid md:grid-cols-2">
-      <article></article>
-      <article className="bg-gray-950 p-10 rounded-lg text-gray-400">
+    <section className="container mx-auto grid md:grid-cols-2 gap-5 mt-10">
+      <article className="border bg-gray-950 rounded-lg p-3 relative">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.1287220649297!2d77.14179539999999!3d28.745573500000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0104313d284d%3A0x8885dba4d75e3b22!2sNiyoosha%20Websites!5e0!3m2!1sen!2sin!4v1771339057213!5m2!1sen!2sin"
+          width="100%"
+          height="100%"
+          style={{ border: "0" }}
+          allowFullScreen
+          loading="lazy"
+          className="rounded-lg contain-content"
+        />
+        <div className=" w-fit p-5 text-gray-400 rounded-lg absolute bottom-3 left-3">
+          <div className="bg-gray-950 opacity-90 p-3 rounded-lg mb-2">
+            <h1 className="text-2xl mb-2 text-orange-500">Our Location</h1>
+            <p>H - 189, Street no 7</p>
+            <p>Samaypur, Delhi</p>
+            <p>Pincode - 110042</p>
+          </div>
+
+          <div className="bg-gray-950 opacity-90 p-3 rounded-lg mb-2">
+            <h1 className="text-2xl mb-2 text-orange-500">Email</h1>
+            <p>niyooshawebsites@gmail.com</p>
+          </div>
+
+          <div className="bg-gray-950 opacity-90 p-3 rounded-lg">
+            <h1 className="text-2xl mb-2 text-orange-500">Phone</h1>
+            <p>+91 9205504115</p>
+          </div>
+        </div>
+      </article>
+      <article className="bg-gray-950 p-5 rounded-lg text-gray-400">
         <Form {...form}>
           <form onSubmit={form.handleSubmit(submimssion)} className="space-y-6">
             {/* Name */}
@@ -179,7 +207,7 @@ const Contact = () => {
             <Button
               variant="default"
               type="submit"
-              className="w-full bg-orange-500"
+              className="w-full bg-orange-500 text-gray-100 hover:cursor-pointer hover:text-gray-950 hover:scale-101"
             >
               {loading ? "Submitting" : "Submit"}
             </Button>
